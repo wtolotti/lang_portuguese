@@ -7,7 +7,7 @@
 			'email' => 'mt@marciotoledo.com',
 			'website' => 'http://marciotoledo.com'
 		),
-		'release-date' => '2012-08-25'
+		'release-date' => '2012-11-09'
 	);
 
 	/**
@@ -170,7 +170,10 @@
 		'Value' => 
 		false,
 
-		'System Date' => 
+		'System Creation Date' => 
+		false,
+
+		'System Modified Date' => 
 		false,
 
 		'ID' => 
@@ -219,6 +222,9 @@
 		false,
 
 		'Sort Order' => 
+		false,
+
+		'System Modification Date' => 
 		false,
 
 		'random' => 
@@ -347,7 +353,7 @@
 		'This is a required field' => 
 		false,
 
-		'XML is invalid' => 
+		'XML is invalid.' => 
 		false,
 
 		'Must be a valid number' => 
@@ -398,7 +404,10 @@
 		'Event created at %s.' => 
 		false,
 
-		'Filter Options' => 
+		'Filters' => 
+		false,
+
+		'Event Filters add additional conditions or actions to an event.' => 
 		false,
 
 		'Admin Only' => 
@@ -533,7 +542,10 @@
 		'Page created at %s.' => 
 		false,
 
-		'Edit Template' => 
+		'View Page' => 
+		false,
+
+		'View Page on Frontend' => 
 		false,
 
 		'Edit Page Template' => 
@@ -653,7 +665,7 @@
 		'Unknown Section' => 
 		false,
 
-		'The Section you are looking for could not be found.' => 
+		'The Section, %s, could not be found.' => 
 		false,
 
 		'Section updated at %s.' => 
@@ -728,7 +740,7 @@
 		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
 		false,
 
-		'Enter your email address to be sent a remote login link with further instructions for logging in.' => 
+		'Enter your email address to be sent further instructions for logging in.' => 
 		false,
 
 		'Email Address' => 
@@ -740,13 +752,19 @@
 		'Send Email' => 
 		false,
 
+		'Cancel' => 
+		false,
+
+		'The login details provided are incorrect.' => 
+		false,
+
 		'No username was entered.' => 
 		false,
 
 		'Password' => 
 		false,
 
-		'The supplied password was rejected.' => 
+		'No password was entered.' => 
 		false,
 
 		'Retrieve password?' => 
@@ -768,9 +786,6 @@
 		false,
 
 		'The Symphony Team' => 
-		false,
-
-		'The Section you are looking for, %s, could not be found.' => 
 		false,
 
 		'Create a new entry' => 
@@ -827,7 +842,7 @@
 		'Unknown Entry' => 
 		false,
 
-		'The entry you are looking for could not be found.' => 
+		'The Entry, %s, could not be found.' => 
 		false,
 
 		'Entry updated at %s.' => 
@@ -1004,6 +1019,9 @@
 		'Gateway' => 
 		false,
 
+		'Could not find extension %s at location %s.' => 
+		false,
+
 		'An extension requires updating.' => 
 		false,
 
@@ -1172,9 +1190,6 @@
 		'The %1$s file for the %2$s extension is not valid XML: %3$s' => 
 		false,
 
-		'Could not find extension %s at location %s' => 
-		false,
-
 		'New Field' => 
 		false,
 
@@ -1202,7 +1217,7 @@
 		'%s Display in entries table' => 
 		false,
 
-		'%s Display relationship in entries table' => 
+		'%s Display relationship in entries table %s' => 
 		false,
 
 		'Invalid element name. Must be valid %s.' => 
@@ -1364,10 +1379,7 @@
 		'Error creating field object with id %1$d, for filtering in data source %2$s. Check this field exists.' => 
 		false,
 
-		'The section associated with the data source %s could not be found.' => 
-		false,
-
-		'XML is invalid.' => 
+		'The Section, %s, associated with the Data source, %s, could not be found.' => 
 		false,
 
 		'Sendmail (default)' => 
@@ -1383,6 +1395,9 @@
 		false,
 
 		'SMTP' => 
+		false,
+
+		'The Envelope From Address can not contain carriage return or newlines.' => 
 		false,
 
 		'Email: SMTP' => 
@@ -1412,12 +1427,6 @@
 		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
 		false,
 
-		'Section is invalid' => 
-		false,
-
-		'Invalid Entry ID specified. Could not create Entry object.' => 
-		false,
-
 		'Unknown errors where encountered when saving.' => 
 		false,
 
@@ -1428,6 +1437,9 @@
 		false,
 
 		'Entry created successfully.' => 
+		false,
+
+		'Author types' => 
 		false,
 
 		'%s Allow selection of multiple authors' => 
@@ -1472,7 +1484,7 @@
 		'%s Allow selection of multiple options' => 
 		false,
 
-		'Available when using Dynamic Values' => 
+		'available when using Dynamic Values' => 
 		false,
 
 		'%s Sort all options alphabetically' => 
@@ -1511,13 +1523,13 @@
 		'Destination Directory' => 
 		false,
 
-		'Directory %s does not exist.' => 
+		'The destination directory, %s, does not exist.' => 
+		false,
+
+		'The destination directory is not writable.' => 
 		false,
 
 		'Destination folder is not writable.' => 
-		false,
-
-		'The destination directory, %s, does not exist.' => 
 		false,
 
 		'The file uploaded is no longer available. Please check that it exists, and is readable.' => 
@@ -1541,9 +1553,6 @@
 		'Uploading ‘%s’ failed. File upload stopped by extension.' => 
 		false,
 
-		'A file with the name %1$s already exists in %2$s. Please rename the file first, or choose another.' => 
-		false,
-
 		'There was an error while trying to upload the file %1$s to the target directory %2$s.' => 
 		false,
 
@@ -1551,6 +1560,24 @@
 		false,
 
 		'Symphony Database Error' => 
+		false,
+
+		'Uninstall extension' => 
+		false,
+
+		'Uninstall this extension' => 
+		false,
+
+		'Often the cause of this error is a misnamed extension folder. You can try renaming %s to %s, or you can uninstall the extension to continue.' => 
+		false,
+
+		'Rename folder' => 
+		false,
+
+		'Sorry, but Symphony was unable to rename the folder. You can try renaming %s to %s yourself, or you can uninstall the extension to continue.' => 
+		false,
+
+		'You can try uninstalling the extension to continue, or you might want to ask on the forums' => 
 		false,
 
 		'XSLT Processing Error' => 
