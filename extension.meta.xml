@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension id="symphonycms_lang_ptbr" status="development" xmlns="http://symphony-cms.com/schemas/extension/1.0">
-	<name>SymphonyCMS Português Brasil</name>
-	<description>Core translation to Brazilian Portuguese.</description>
-	<repo type="github">https://github.com/marciotoledo/symphonycms_lang_ptbr</repo>
+<extension id="lang_portuguese" status="development" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Translation Portuguese Bundle</name>
+	<description>Core translation to Portuguese (Portugal and Brazil).</description>
+	<repo type="github">https://github.com/marciotoledo/symphonycms_lang_portuguese</repo>
 	<types>
 		<type>Translation</type>
 	</types>
