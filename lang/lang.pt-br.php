@@ -15,8 +15,6 @@
 	 */
 	$dictionary = array(
 
-		// Missing
-
 		'Are you sure you want to proceed?' => 
 		'Você tem certeza que deseja prosseguir?',
 
@@ -87,82 +85,82 @@
 		false,
 
 		'Data Sources' => 
-		false,
+		'Dados', // Revisar...
 
 		'Symphony' => 
 		false,
 
 		'Create New' => 
-		false,
+		'Criar Novo',
 
 		'Create a new data source' => 
-		false,
+		'Criar um novo data source',
 
 		'An error occurred while processing this form. See below for details.' => 
-		false,
+		'Um erro ocorreu enquanto processava este form. Veja detalhes abaixo.',
 
 		'Data source updated at %s.' => 
-		false,
+		'Data source atualizado em %s.',
 
 		'Create another?' => 
-		false,
+		'Criar outro?',
 
 		'View all Data sources' => 
-		false,
+		'Ver todos os Data Sources',
 
 		'Data source created at %s.' => 
-		false,
+		'Data Source criado em %s.',
 
 		'Untitled' => 
-		false,
+		'Sem título',
 
 		'Essentials' => 
-		false,
+		'Essenciais',
 
 		'Name' => 
-		false,
+		'Nome',
 
 		'Source' => 
-		false,
+		'Fonte', // Revisar...
 
 		'System' => 
-		false,
+		'Sistema',
 
 		'Authors' => 
-		false,
+		'Autores',
 
 		'Navigation' => 
-		false,
+		'Navegação',
 
 		'Custom XML' => 
-		false,
+		'XML Customizado',
 
 		'Dynamic XML' => 
-		false,
+		'XML Dinâmico',
 
 		'Static XML' => 
-		false,
+		'XML Estático',
 
 		'From extensions' => 
-		false,
+		false, // Revisar...
 
 		'Sections' => 
-		false,
+		'Seções',
 
 		'Filter Results' => 
-		false,
+		'Resultado do Filtro', // Revisar...
 
 		'Use %s syntax to filter by page parameters.' => 
-		false,
+		'Use %s sintaxe para filtrar por parâmetros de página.', // Revisar...
 
 		'$param' => 
 		false,
 
 		'Add filter' => 
-		false,
+		'Adicionar filtro',
 
 		'Remove filter' => 
-		false,
+		'Remover filtro',
 
 		'System ID' => 
 		false,
@@ -183,16 +181,16 @@
 		false,
 
 		'First Name' => 
-		false,
+		'Primeiro Nome',
 
 		'Last Name' => 
-		false,
+		'Último Nome',
 
 		'Email' => 
 		false,
 
 		'User Type' => 
-		false,
+		'Tipo de Usuário',
 
 		'Parent Page' => 
 		false,
@@ -1068,34 +1066,34 @@
 		false,
 
 		'Log out' => 
-		false,
+		'Sair',
 
 		'First name is required' => 
-		false,
+		'Primeiro nome é necessário',
 
 		'Last name is required' => 
-		false,
+		'Último nome é necessário',
 
 		'E-mail address is required' => 
-		false,
+		'Endereço de email é necessário',
 
 		'E-mail address entered is invalid' => 
-		false,
+		'Endereço de email é inválido',
 
 		'E-mail address is already taken' => 
-		false,
+		'Endereço de email já foi utilizado',
 
 		'Username is required' => 
-		false,
+		'Usuário é necessário',
 
 		'Username is already taken' => 
-		false,
+		'Usuário já foi utilizado',
 
 		'Password is required' => 
-		false,
+		'Senha é necessária',
 
 		'No records found.' => 
-		false,
+		'Nenhum registro encontrado.',
 
 		'Could not find Data Source %s.' => 
 		false,
@@ -1104,7 +1102,7 @@
 		false,
 
 		'Edit' => 
-		false,
+		'Editar',
 
 		'Utility' => 
 		false,
@@ -1302,7 +1300,7 @@
 		false,
 
 		'All' => 
-		false,
+		'Tudo',
 
 		'Please check permissions on %s' => 
 		false,
