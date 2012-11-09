@@ -1,12 +1,9 @@
-SymphonyCMS Português
-=====================
+SymphonyCMS Tradução Português (Portugal / Brasil)
+==================================================
 
-Branch: [Development][1]
+Ainda não está pronto.
 
-Brazilian Portuguese translation for Symphony 2.3+.
-If you are from Portugal, please help improve this extension to Portuguese Bundle.
+Começamos a tradução para Brasil, para versão 2.3+.
+Se você é de Portugal, entre em contato para iniciar sua tradução.
 
 =)
-
-
-[1] https://github.com/marciotoledo/symphonycms_lang_portuguese/tree/development
