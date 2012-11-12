@@ -10,11 +10,13 @@
 		<author>
 			<name github="marciotoledo" symphony="marciotoledo" twitter="marciotoledo">Marcio Toledo</name>
 			<website>http://marciotoledo.com</website>
+			<name github="wtolotti" twitter="wtolotti">Willian Tolotti</name>
+			<website>http://twitter.com/wtolotti</website>
 		</author>
 	</authors>
 	<releases>
-		<release version="0.1" date="2012-11-01" min="2.3.0" max="2.3.1">
-			- Init
+		<release version="0.1" date="2012-11-12" min="2.3.0" max="2.3.1">
+			- Initial Structure and starting the translation
 		</release>
 	</releases>
 </extension>

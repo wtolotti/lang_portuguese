@@ -13,6 +13,8 @@
 	/**
 	 * Symphony Core
 	 */
+
+	
 	$dictionary = array(
 
 		'Are you sure you want to proceed?' => 
@@ -85,7 +87,7 @@
 		false,
 
 		'Data Sources' => 
-		'Dados', // Revisar...
+		false,
 
 		'Symphony' => 
 		false,
@@ -142,7 +144,7 @@
 		'XML Estático',
 
 		'From extensions' => 
-		false, // Revisar...
+		false,
 
 		'Sections' => 
 		'Seções',
@@ -166,7 +168,7 @@
 		false,
 
 		'Value' => 
-		false,
+		'Valor',
 
 		'System Creation Date' => 
 		false,
@@ -178,7 +180,7 @@
 		false,
 
 		'Username' => 
-		false,
+		'Usuário',
 
 		'First Name' => 
 		'Primeiro Nome',
@@ -196,16 +198,16 @@
 		false,
 
 		'Page Type' => 
-		false,
+		'Tipo da página',
 
 		'Sorting and Limiting' => 
 		false,
 
 		'Use %s syntax to limit by page parameters.' => 
-		false,
+		'Use %s sintaxe para limitar por parâmetros de página', //revisar
 
 		'Sort By' => 
-		false,
+		'Organizar por',
 
 		'Author ID' => 
 		false,
@@ -220,55 +222,55 @@
 		false,
 
 		'Sort Order' => 
-		false,
+		'Ordenar a organização', //revisar
 
 		'System Modification Date' => 
 		false,
 
 		'random' => 
-		false,
+		'aleatório',
 
 		'%1$s Paginate results, limiting to %2$s entries per page. Return page %3$s' => 
-		false,
+		'%1$s Resultados da páginação, limitando para %2$s registros por página. Retornar página %3$s' //revisar
 
 		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
 		false,
 
 		'Output Options' => 
-		false,
+		'Opções de saída',
 
 		'Required URL Parameter' => 
-		false,
+		'Requer um parâmetro URL',
 
 		'Optional' => 
-		false,
+		'Opcional',
 
 		'An empty result will be returned when this parameter does not have a value.' => 
 		false,
 
 		'%s Redirect to 404 page when no results are found' => 
-		false,
+		'%s Redirecionar para página 404 quando não encontrar resultados',
 
 		'Output Parameters' => 
-		false,
+		'Parâmetros de Saída',
 
 		'Use Fields' => 
 		false,
 
 		'XML Output' => 
-		false,
+		'Saída XML',
 
 		'Group By' => 
-		false,
+		'Agrupar por',
 
 		'None' => 
-		false,
+		'Nenhum', //revisar
 
 		'Author' => 
-		false,
+		'Autor',
 
 		'Included Elements' => 
-		false,
+		'Elementos incluídos',
 
 		'%s Include a count of entries in associated sections' => 
 		false,
@@ -283,13 +285,13 @@
 		false,
 
 		'Namespace Declarations' => 
-		false,
+		'Declarações namespace', //revisar
 
 		'Add namespace' => 
-		false,
+		'Adicionar namespace',
 
 		'Remove namespace' => 
-		false,
+		'Remover namespace',
 
 		'Namespace' => 
 		false,
@@ -301,25 +303,25 @@
 		false,
 
 		'Update cached result every %s minutes' => 
-		false,
+		'Atualizar resultado de cached a cada %s minutes', //revisar
 
 		'Body' => 
 		false,
 
 		'Save Changes' => 
-		false,
+		'Salvar mudanças',
 
 		'Create Data Source' => 
-		false,
+		'Criar Data Source',
 
 		'Delete' => 
-		false,
+		'Excluir',
 
 		'Delete this data source' => 
-		false,
+		'Excluir este data source',
 
 		'Are you sure you want to delete this data source?' => 
-		false,
+		'Tem certeza que deseja excluir este data source?',
 
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
 		false,
@@ -331,43 +333,43 @@
 		false,
 
 		'%1$s released on %2$s' => 
-		false,
+		'%1$s lançado em %2$s',
 
 		'Created by %1$s at %2$s' => 
-		false,
+		'Criado por %1$s em %2$s', //revisar
 
 		'Description' => 
-		false,
+		'Descrição',
 
 		'Example XML' => 
-		false,
+		'Exemplo XML',
 
 		'Failed to delete %s.' => 
-		false,
+		'Falha ao excluir %s.',
 
 		'Please check permissions on %s.' => 
 		false,
 
 		'This is a required field' => 
-		false,
+		'Este é um campo obrigatório', //revisar
 
 		'XML is invalid.' => 
 		false,
 
 		'Must be a valid number' => 
-		false,
+		'Deve ser um número válido', //revisar
 
 		'Must be greater than zero' => 
-		false,
+		'Deve ser maior que zero', //revisar
 
 		'A result limit must be set' => 
 		false,
 
 		'Must be a valid number or parameter' => 
-		false,
+		'Deve ser um número ou parâmetro válido', //revisar
 
 		'A page number must be set' => 
-		false,
+		'Um número de página deve ser definida', //revisar
 
 		'Please ensure name contains at least one Latin-based character.' => 
 		false,
@@ -376,7 +378,7 @@
 		false,
 
 		'Failed to write Data source to disk.' => 
-		false,
+		'Falha ao gravar Data source no disco.', //revisar
 
 		'Invalid URL' => 
 		false,
@@ -388,19 +390,19 @@
 		false,
 
 		'Events' => 
-		false,
+		'Eventos',
 
 		'Create a new event' => 
-		false,
+		'Criar um novo evento',
 
 		'Event updated at %s.' => 
-		false,
+		'Evento atualizado em %s.',
 
 		'View all Events' => 
-		false,
+		'Ver todos os eventos',
 
 		'Event created at %s.' => 
-		false,
+		'Evento criado em %s.',
 
 		'Filters' => 
 		false,
@@ -409,25 +411,25 @@
 		false,
 
 		'Admin Only' => 
-		false,
+		'Somente Admin', //revisar
 
 		'Send Notification Email' => 
-		false,
+		'Enviar e-mail de notificação',
 
 		'Allow Multiple' => 
 		false,
 
 		'Create Event' => 
-		false,
+		'Criar evento',
 
 		'Delete this event' => 
-		false,
+		'Excluir este evento',
 
 		'Are you sure you want to delete this event?' => 
-		false,
+		'Tem certeza que deseja excluir este evento?',
 
 		'An Event with the name %s already exists' => 
-		false,
+		'Um evento com o nome %s já existe', //revisar
 
 		'Success and Failure XML Examples' => 
 		false,
@@ -487,16 +489,16 @@
 		false,
 
 		'Failed to write Event to disk.' => 
-		false,
+		'Falha ao gravar Evento no disco.',
 
 		'Pages' => 
-		false,
+		'Páginas',
 
 		'Create a new page' => 
-		false,
+		'Criar uma nova página',
 
 		'Title' => 
-		false,
+		'Título',
 
 		'Template' => 
 		false,
@@ -505,10 +507,10 @@
 		false,
 
 		'Parameters' => 
-		false,
+		'Parâmetros',
 
 		'Type' => 
-		false,
+		'Tipo',
 
 		'Children' => 
 		false,
@@ -523,34 +525,34 @@
 		false,
 
 		'Page updated at %s.' => 
-		false,
+		'Página atualizada em %s.',
 
 		'View all Pages' => 
-		false,
+		'Ver todas as páginas',
 
 		'Edit Page' => 
-		false,
+		'Editar Página',
 
 		'Edit Page Configuration' => 
-		false,
+		'Editar Configuração de Página',
 
 		'Utilities' => 
-		false,
+		'Utilitários',
 
 		'Page created at %s.' => 
-		false,
+		'Página criada em %s.',
 
 		'View Page' => 
-		false,
+		'Vizualizar Página',
 
 		'View Page on Frontend' => 
-		false,
+		'Vizualizar Página no Frontend',
 
 		'Edit Page Template' => 
-		false,
+		'Editar Template de Página',
 
 		'Page Settings' => 
-		false,
+		'Configurações da Página',
 
 		'URL Handle' => 
 		false,
@@ -559,19 +561,19 @@
 		false,
 
 		'Page Resources' => 
-		false,
+		'Recursos da página', //revisar
 
 		'Create Page' => 
-		false,
+		'Criar Página',
 
 		'Delete this page' => 
-		false,
+		'Excluir esta página',
 
 		'Are you sure you want to delete this page?' => 
-		false,
+		'Tem certeza que deseja excluir esta página?',
 
 		'This is a required field.' => 
-		false,
+		'Este é um campo obrigatório.',
 
 		'This document is not well formed.' => 
 		false,
@@ -613,22 +615,22 @@
 		false,
 
 		'One or more pages could not be deleted.' => 
-		false,
+		'Uma ou mais páginas não podem ser excluídas.',
 
 		'Create a section' => 
-		false,
+		'Criar uma seção',
 
 		'Entries' => 
-		false,
+		'Entradas',
 
 		'Navigation Group' => 
 		false,
 
 		'Are you sure you want to delete the selected sections?' => 
-		false,
+		'Tem certeza que deseja excluir a seção selecionada?',
 
 		'Delete Entries' => 
-		false,
+		'Excluir Entradas',
 
 		'Are you sure you want to delete all entries in the selected sections?' => 
 		false,
@@ -637,100 +639,100 @@
 		false,
 
 		'Content' => 
-		false,
+		'Conteúdo',
 
 		'%s Hide this section from the back-end menu' => 
-		false,
+		'%s Esconder esta seção do menu back-end',
 
 		'Fields' => 
-		false,
+		'Campos',
 
 		'Click to expand or collapse a field.' => 
-		false,
+		'Clique para expandir ou recolher um campo.',
 
 		'Double click to expand or collapse all fields.' => 
-		false,
+		'Clique duplo para expandir ou recolher todos os campos.',
 
 		'Add field' => 
-		false,
+		'Adicionar campo',
 
 		'Remove field' => 
-		false,
+		'Excluir campo',
 
 		'Create Section' => 
-		false,
+		'Criar seção',
 
 		'Unknown Section' => 
-		false,
+		'Seção desconhecida',
 
 		'The Section, %s, could not be found.' => 
-		false,
+		'A Seção, %s, não pôde ser encontrada', //revisar
 
 		'Section updated at %s.' => 
-		false,
+		'Seção atualizada em %s.',
 
 		'View all Sections' => 
-		false,
+		'Vizualizar todas as Seçöes',
 
 		'Section created at %s.' => 
-		false,
+		'Seção criada em %s.',
 
 		'View Entries' => 
-		false,
+		'Vizualizar Entradas',
 
 		'View Section Entries' => 
-		false,
+		'Vizualizar Entradas da Seção', //revisar
 
 		'Delete this section' => 
-		false,
+		'Excluir esta seção',
 
 		'Are you sure you want to delete this section?' => 
-		false,
+		'Tem certeza que deseja excluir esta seção?',
 
 		'A Section with the name %s already exists' => 
-		false,
+		'A Seção com o nome %s já existe',
 
 		'A field with this handle already exists. All handle must be unique.' => 
-		false,
+		'Um campo com este handle já existe, Todo handle deve ser único.', //revisar
 
 		'There is already a field of type %s. There can only be one per section.' => 
-		false,
+		'Já existe um campo do tipo %s. Pode ter apenas um por seção.', //revisar
 
 		'An unknown database occurred while attempting to create the section.' => 
 		false,
 
 		'Create a new utility' => 
-		false,
+		'Criar um novo utilitário',
 
 		'Utility updated at %s.' => 
-		false,
+		'Utilitário atualizado em %s.',
 
 		'View all Utilities' => 
-		false,
+		'Vizualizar todos os Utilitários',
 
 		'Utility created at %s.' => 
-		false,
+		'Utilitário criado em %s.',
 
 		'Create Utility' => 
-		false,
+		'Criar Utilitário',
 
 		'Delete this utility' => 
-		false,
+		'Excluir este utilitário',
 
 		'Are you sure you want to delete this Utility?' => 
-		false,
+		'Tem certeza que deseja excluir este Utilitário?',
 
 		'Name is a required field.' => 
-		false,
+		'Nome é um campo necessário.',
 
 		'Body is a required field.' => 
-		false,
+		'Corpo é um campo necessário.', //revisar
 
 		'A Utility with that name already exists. Please choose another.' => 
-		false,
+		'Um Utilitário com este nome já existe. Por favor escolha outra.',
 
 		'Utility could not be written to disk.' => 
-		false,
+		'Utilitário não pode ser gravado no disco.', 
 
 		'Login' => 
 		false,
@@ -739,70 +741,70 @@
 		false,
 
 		'Enter your email address to be sent further instructions for logging in.' => 
-		false,
+		'Digite seu endereço de email para enviar mais instruções para efetuar o login.',
 
 		'Email Address' => 
-		false,
+		'Endereço de Email',
 
 		'There was a problem locating your account. Please check that you are using the correct email address.' => 
-		false,
+		'Houve um problema ao localizar sua conta. Por favor verifique se está usando o endereço de email correto.', //revisar
 
 		'Send Email' => 
-		false,
+		'Enviar Email',
 
 		'Cancel' => 
-		false,
+		'Cancelar',
 
 		'The login details provided are incorrect.' => 
-		false,
+		'Os detalhes de login fornecidos estão incorretos.', //revisar
 
 		'No username was entered.' => 
-		false,
+		'Nenhum usuário foi digitado.', //revisar
 
 		'Password' => 
-		false,
+		'Senha',
 
 		'No password was entered.' => 
-		false,
+		'Nenhuma senha foi digitada.', //revisar
 
 		'Retrieve password?' => 
-		false,
+		'Recuperar senha?',
 
 		'New Symphony Account Password' => 
 		false,
 
 		'Hi %s,' => 
-		false,
+		'Olá %s',
 
 		'A new password has been requested for your account. Login using the following link, and change your password via the Authors area:' => 
 		false,
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
-		false,
+		'Isto irá expirar em 2 horas. Se você não pediu uma nova senha, por favor desconsidere este email.', //revisar
 
 		'Best Regards,' => 
-		false,
+		'Atenciosamente,',
 
 		'The Symphony Team' => 
-		false,
+		'O Time Symphony', //revisar
 
 		'Create a new entry' => 
-		false,
+		'Criar um novo registro',
 
 		'Edit Section' => 
-		false,
+		'Editar Seção',
 
 		'Edit Section Configuration' => 
-		false,
+		'Editar Configuração da Seção',
 
 		'An error occurred while retrieving filtered entries. Showing all entries instead.' => 
 		false,
 
 		'Are you sure you want to delete the selected entries?' => 
-		false,
+		'Tem certeza que deseja excluir os registros selecionados?', //revisar
 
 		'Set %s' => 
-		false,
+		'Definir %s' ,
 
 		'First' => 
 		false,
@@ -814,10 +816,10 @@
 		false,
 
 		'Go to page …' => 
-		false,
+		'Ir para página …',
 
 		'Page %1$s of %2$s' => 
-		false,
+		'Página %1$s de %2$s',
 
 		'Next &rarr;' => 
 		false,
@@ -829,34 +831,34 @@
 		false,
 
 		'Add fields' => 
-		false,
+		'Adicionar campos',
 
 		'Create Entry' => 
-		false,
+		'Criar Registros',
 
 		'Some errors were encountered while attempting to save.' => 
 		false,
 
 		'Unknown Entry' => 
-		false,
+		'Registro Desconhecido',
 
 		'The Entry, %s, could not be found.' => 
-		false,
+		'O Registro, %s, não pôde ser encontrado.',
 
 		'Entry updated at %s.' => 
-		false,
+		'Registro atualizado em %s.',
 
 		'View all Entries' => 
-		false,
+		'Vizualizar todos os Registros',
 
 		'Entry created at %s.' => 
-		false,
+		'Registro criado em %s.',
 
 		'Delete this entry' => 
-		false,
+		'Excluir este registro',
 
 		'Are you sure you want to delete this entry?' => 
-		false,
+		'Tem certeza que deseja excluir este registro?',
 
 		'Create a new author' => 
 		false,
@@ -871,10 +873,10 @@
 		false,
 
 		'Unknown' => 
-		false,
+		'Desconhecido',
 
 		'Developer' => 
-		false,
+		'Desenvolvido',
 
 		'System Default' => 
 		false,
@@ -883,7 +885,7 @@
 		false,
 
 		'Access Denied' => 
-		false,
+		'Acesso Negado',
 
 		'Author updated at %s.' => 
 		false,
@@ -955,7 +957,7 @@
 		false,
 
 		'Extensions' => 
-		false,
+		'Extensões',
 
 		'Installed Version' => 
 		false,
