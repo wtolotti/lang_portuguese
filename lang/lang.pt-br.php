@@ -171,10 +171,10 @@
 		'Valor',
 
 		'System Creation Date' => 
-		false,
+		'Data de Criação do Sistema', //revisar
 
 		'System Modified Date' => 
-		false,
+		'Data Modificada do Sistema', //revisar
 
 		'ID' => 
 		false,
@@ -222,10 +222,10 @@
 		false,
 
 		'Sort Order' => 
-		'Ordenar a organização', //revisar
+		'Ordem', //revisar
 
 		'System Modification Date' => 
-		false,
+		'Data de Modificação do Sistema',
 
 		'random' => 
 		'aleatório',
@@ -246,7 +246,7 @@
 		'Opcional',
 
 		'An empty result will be returned when this parameter does not have a value.' => 
-		false,
+		'Um resultado vazio será retornado quando este parâmetro não tiver valor.', //revisar
 
 		'%s Redirect to 404 page when no results are found' => 
 		'%s Redirecionar para página 404 quando não encontrar resultados',
@@ -255,7 +255,7 @@
 		'Parâmetros de Saída',
 
 		'Use Fields' => 
-		false,
+		'Utilize Campos', //revisar
 
 		'XML Output' => 
 		'Saída XML',
@@ -264,7 +264,7 @@
 		'Agrupar por',
 
 		'None' => 
-		'Nenhum', //revisar
+		'Nenhum',
 
 		'Author' => 
 		'Autor',
@@ -282,7 +282,7 @@
 		false,
 
 		'Use %s syntax to specify dynamic portions of the URL.' => 
-		false,
+		'Use %s sintaxe para especificar partes dinâmicas da URL.',
 
 		'Namespace Declarations' => 
 		'Declarações namespace', //revisar
@@ -462,7 +462,7 @@
 		false,
 
 		'Submit' => 
-		false,
+		'Enviar',
 
 		'To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:' => 
 		false,
@@ -486,7 +486,7 @@
 		false,
 
 		'Message' => 
-		false,
+		'Mensagem',
 
 		'Failed to write Event to disk.' => 
 		'Falha ao gravar Evento no disco.',
@@ -513,16 +513,16 @@
 		'Tipo',
 
 		'Children' => 
-		false,
+		'Filhos',
 
 		'None found.' => 
-		false,
+		'Nenhum encontrado.',
 
 		'With Selected...' => 
 		false,
 
 		'Are you sure you want to delete the selected pages?' => 
-		false,
+		'Tem certeza que deseja excluir as páginas selecionadas?',
 
 		'Page updated at %s.' => 
 		'Página atualizada em %s.',
@@ -549,7 +549,7 @@
 		'Vizualizar Página no Frontend',
 
 		'Edit Page Template' => 
-		'Editar Template de Página',
+		'Editar Template da Página',
 
 		'Page Settings' => 
 		'Configurações da Página',
@@ -582,7 +582,7 @@
 		false,
 
 		'Page Template could not be written to disk.' => 
-		false,
+		'Página Template não pode ser gravada no disco.', //revisar
 
 		'An index type page already exists.' => 
 		false,
@@ -597,19 +597,19 @@
 		false,
 
 		'A page with that title already exists' => 
-		false,
+		'Uma página com este título já existe',
 
 		'A page with that handle already exists' => 
 		false,
 
 		'Unknown errors occurred while attempting to save.' => 
-		false,
+		'Erros desconhecidos foram encontrados ao tentar salvar', //revisar
 
 		'Check your activity log' => 
-		false,
+		'Verifique seu log de atividade', //revisar
 
 		'Page could not be deleted because it does not exist.' => 
-		false,
+		'Página não pode ser excluída porque ela não existe.', //revisar
 
 		'Page could not be deleted because it has children.' => 
 		false,
@@ -1032,13 +1032,13 @@
 		false,
 
 		'View update.' => 
-		false,
+		'Vizualizar atualização',
 
 		'Your Symphony installation is up to date, but the installer was still detected. For security reasons, it should be removed.' => 
 		false,
 
 		'Remove installer?' => 
-		false,
+		'Remover instalador?', //revisar
 
 		'An update script has been found in your installation.' => 
 		false,
@@ -1047,19 +1047,19 @@
 		false,
 
 		'Page Not Found' => 
-		false,
+		'Página não encontrada',
 
 		'The page you requested does not exist.' => 
-		false,
+		'A página solicitada não existe.',
 
 		'Invalid timezone %s' => 
-		false,
+		'Timezone inválido %s', //revisar
 
 		'no leading zeros' => 
 		false,
 
 		'The page you requested, %s, does not exist.' => 
-		false,
+		'A página que solicitou, %s, não existe.', //revisar
 
 		'No suitable engine object found' => 
 		false,
@@ -1107,7 +1107,7 @@
 		'Editar',
 
 		'Utility' => 
-		false,
+		'Utilitário',
 
 		'Email Gateway Error' => 
 		false,
@@ -1191,7 +1191,7 @@
 		false,
 
 		'New Field' => 
-		false,
+		'Novo Campo',
 
 		'Label' => 
 		false,
@@ -1293,19 +1293,19 @@
 		false,
 
 		'Release Date' => 
-		false,
+		'Data de Lançamento',
 
 		'Attach to Page' => 
-		false,
+		'Anexar a Página', //revisar
 
 		'Detach from Page' => 
-		false,
+		'Desanexar da Página',
 
 		'All' => 
 		'Tudo',
 
 		'Please check permissions on %s' => 
-		false,
+		'Por favor verificar permissões em %s',
 
 		'Unsupported SSL type' => 
 		false,
@@ -1605,106 +1605,106 @@
 		false,
 
 		'yesterday' => 
-		false,
+		'ontem',
 
 		'today' => 
-		false,
+		'hoje',
 
 		'tomorrow' => 
-		false,
+		'amanhã',
 
 		'now' => 
-		false,
+		'agora',
 
 		'Sunday' => 
-		false,
+		'Domingo',
 
 		'Monday' => 
-		false,
+		'Segunda-feira',
 
 		'Tuesday' => 
-		false,
+		'Terça-feira',
 
 		'Wednesday' => 
-		false,
+		'Quarta-feira',
 
 		'Thursday' => 
-		false,
+		'Quinta-feira',
 
 		'Friday' => 
-		false,
+		'Sexta-feira',
 
 		'Saturday' => 
-		false,
+		'Sábado',
 
 		'Sun' => 
-		false,
+		'Dom',
 
 		'Mon' => 
-		false,
+		'Seg',
 
 		'Tue' => 
-		false,
+		'Ter',
 
 		'Wed' => 
-		false,
+		'Qua',
 
 		'Thu' => 
-		false,
+		'Qui',
 
 		'Fri' => 
-		false,
+		'Sex',
 
 		'Sat' => 
-		false,
+		'Sáb',
 
 		'January' => 
-		false,
+		'Janeiro',
 
 		'February' => 
-		false,
+		'Fevereiro',
 
 		'March' => 
-		false,
+		'Março',
 
 		'April' => 
-		false,
+		'Abril',
 
 		'May' => 
-		false,
+		'Maio',
 
 		'June' => 
-		false,
+		'Junho',
 
 		'July' => 
-		false,
+		'Julho',
 
 		'August' => 
-		false,
+		'Agosto',
 
 		'September' => 
-		false,
+		'Setembro',
 
 		'October' => 
-		false,
+		'Outubro',
 
 		'November' => 
-		false,
+		'Novembro',
 
 		'December' => 
-		false,
+		'Dezembro',
 
 		'Jan' => 
 		false,
 
 		'Feb' => 
-		false,
+		'Fev',
 
 		'Mar' => 
 		false,
 
 		'Apr' => 
-		false,
+		'Abr',
 
 		'Jun' => 
 		false,
@@ -1713,133 +1713,133 @@
 		false,
 
 		'Aug' => 
-		false,
+		'Ago',
 
 		'Sep' => 
-		false,
+		'Set',
 
 		'Oct' => 
-		false,
+		'Out',
 
 		'Nov' => 
 		false,
 
 		'Dec' => 
-		false,
+		'Dez',
 
 		'sec' => 
-		false,
+		'seg',
 
 		'second' => 
-		false,
+		'segundo',
 
 		'min' => 
 		false,
 
 		'minute' => 
-		false,
+		'minuto',
 
 		'hour' => 
-		false,
+		'hora',
 
 		'day' => 
-		false,
+		'dia',
 
 		'fortnight' => 
-		false,
+		'quinzena',
 
 		'forthnight' => 
 		false,
 
 		'month' => 
-		false,
+		'mês',
 
 		'year' => 
-		false,
+		'ano',
 
 		'secs' => 
-		false,
+		'segs',
 
 		'seconds' => 
-		false,
+		'segundos',
 
 		'mins' => 
-		false,
+		'mins',
 
 		'minutes' => 
-		false,
+		'minutos',
 
 		'hours' => 
-		false,
+		'horas',
 
 		'days' => 
-		false,
+		'dias',
 
 		'fortnights' => 
-		false,
+		'quinzenas',
 
 		'forthnights' => 
 		false,
 
 		'months' => 
-		false,
+		'meses',
 
 		'years' => 
-		false,
+		'anos',
 
 		'weekday' => 
-		false,
+		'dia da semana',
 
 		'weekdays' => 
-		false,
+		'dias da semana',
 
 		'week' => 
-		false,
+		'semana',
 
 		'weeks' => 
-		false,
+		'semanas',
 
 		'first' => 
-		false,
+		'primeiro',
 
 		'third' => 
-		false,
+		'terceiro',
 
 		'fourth' => 
-		false,
+		'quarto',
 
 		'fifth' => 
-		false,
+		'quinto',
 
 		'sixth' => 
-		false,
+		'sexto',
 
 		'seventh' => 
-		false,
+		'sétimo',
 
 		'eighth' => 
-		false,
+		'oitavo',
 
 		'ninth' => 
-		false,
+		'nono',
 
 		'tenth' => 
-		false,
+		'décimo',
 
 		'eleventh' => 
-		false,
+		'décimo primeiro',
 
 		'twelfth' => 
-		false,
+		'décimo segundo',
 
 		'last' => 
-		false,
+		'último',
 
 		'previous' => 
-		false,
+		'anterior',
 
 		'this' => 
-		false,
+		'este',
 
 	);
 
