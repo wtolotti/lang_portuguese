@@ -1,7 +1,7 @@
 <?php
 
 	$about = array(
-		'name' => 'Português (Brasil)',
+		'name' => 'Portuguese (Brazil)',
 		'author' => array(
 			'name' => 'Marcio Toledo',
 			'email' => 'mt@marciotoledo.com',
@@ -21,7 +21,7 @@
 		'Você tem certeza que deseja prosseguir?',
 
 		'Reordering was unsuccessful.' => 
-		'A reordenação não teve sucesso.',
+		'Reordenação sem sucesso.',
 
 		'Change Password' => 
 		'Mudar Senha',
@@ -123,7 +123,7 @@
 		'Nome',
 
 		'Source' => 
-		'Fonte', // Revisar...
+		'Fonte', //revisar...
 
 		'System' => 
 		'Sistema',
@@ -144,16 +144,16 @@
 		'XML Estático',
 
 		'From extensions' => 
-		false,
+		false, //revisar
 
 		'Sections' => 
 		'Seções',
 
 		'Filter Results' => 
-		'Resultado do Filtro', // Revisar...
+		'Resultados do Filtro', //revisar
 
 		'Use %s syntax to filter by page parameters.' => 
-		'Use %s sintaxe para filtrar por parâmetros de página.', // Revisar...
+		'Use %s sintaxe para filtrar por parâmetros de página.', //revisar
 
 		'$param' => 
 		false,
@@ -165,7 +165,7 @@
 		'Remover filtro',
 
 		'System ID' => 
-		false,
+		'ID do Sistema', //revisar
 
 		'Value' => 
 		'Valor',
@@ -174,7 +174,7 @@
 		'Data de Criação do Sistema', //revisar
 
 		'System Modified Date' => 
-		'Data Modificada do Sistema', //revisar
+		'Data Alterada do Sistema', //revisar
 
 		'ID' => 
 		false,
@@ -195,28 +195,28 @@
 		'Tipo de Usuário',
 
 		'Parent Page' => 
-		false,
+		'Página Pai', //revisar
 
 		'Page Type' => 
-		'Tipo da página',
+		'Tipo de Página',
 
 		'Sorting and Limiting' => 
-		false,
+		'Ordenando e Limitando',
 
 		'Use %s syntax to limit by page parameters.' => 
-		'Use %s sintaxe para limitar por parâmetros de página', //revisar
+		'Use %s sintaxe para limitar por parâmetros de página.', //revisar
 
 		'Sort By' => 
 		'Organizar por',
 
 		'Author ID' => 
-		false,
+		'ID do Autor',
 
 		'Status' => 
-		false,
+		'Estado',
 
 		'Page ID' => 
-		false,
+		'ID da Página',
 
 		'Handle' => 
 		false,
@@ -231,16 +231,16 @@
 		'aleatório',
 
 		'%1$s Paginate results, limiting to %2$s entries per page. Return page %3$s' => 
-		'%1$s Resultados da paginação, limitando para %2$s registros por página. Retornar página %3$s',
+		'%1$s Paginação dos resultados, limitando para %2$s registros por página. Retornar página %3$s',
 
 		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
-		false,
+		'Falhando a paginação talvez prejudique a performance se o número de registros retornado for muito alto.',
 
 		'Output Options' => 
 		'Opções de saída',
 
 		'Required URL Parameter' => 
-		'Requer um parâmetro URL',
+		'Parâmetro de URL necessário',
 
 		'Optional' => 
 		'Opcional',
@@ -255,7 +255,7 @@
 		'Parâmetros de Saída',
 
 		'Use Fields' => 
-		'Utilize Campos', //revisar
+		'Use Campos', //revisar
 
 		'XML Output' => 
 		'Saída XML',
@@ -273,10 +273,10 @@
 		'Elementos incluídos',
 
 		'%s Include a count of entries in associated sections' => 
-		false,
+		'%s Inclua um contador de registros nas seções associadas',
 
 		'%s HTML-encode text' => 
-		false,
+		'%s texto com HTML-encode',
 
 		'URL' => 
 		false,
@@ -285,7 +285,7 @@
 		'Use %s sintaxe para especificar partes dinâmicas da URL.',
 
 		'Namespace Declarations' => 
-		'Declarações namespace', //revisar
+		'Declarações de Namespace',
 
 		'Add namespace' => 
 		'Adicionar namespace',
@@ -300,16 +300,16 @@
 		false,
 
 		'Use an XPath expression to select which elements from the source XML to include.' => 
-		false,
+		'Use uma expressão XPath para selecionar cada elemento de origem XML para incluir. ',
 
 		'Update cached result every %s minutes' => 
-		'Atualizar resultado de cached a cada %s minutes', //revisar
+		'Atualizar resultados em cache a cada %s minutes',
 
 		'Body' => 
-		false,
+		'Corpo',
 
 		'Save Changes' => 
-		'Salvar mudanças',
+		'Salvar Alterações',
 
 		'Create Data Source' => 
 		'Criar Data Source',
@@ -330,13 +330,13 @@
 		false,
 
 		'Version' => 
-		false,
+		'Versão',
 
 		'%1$s released on %2$s' => 
 		'%1$s lançado em %2$s',
 
 		'Created by %1$s at %2$s' => 
-		'Criado por %1$s em %2$s', //revisar
+		'Criado por %1$s em %2$s',
 
 		'Description' => 
 		'Descrição',
@@ -348,46 +348,46 @@
 		'Falha ao excluir %s.',
 
 		'Please check permissions on %s.' => 
-		false,
+		'Por favor, verifique permissões em %s.',
 
 		'This is a required field' => 
-		'Este é um campo obrigatório', //revisar
+		'Este é um campo obrigatório',
 
 		'XML is invalid.' => 
-		false,
+		'XML não é válido.',
 
 		'Must be a valid number' => 
-		'Deve ser um número válido', //revisar
+		'Deve ser um número válido',
 
 		'Must be greater than zero' => 
-		'Deve ser maior que zero', //revisar
+		'Deve ser maior que zero',
 
 		'A result limit must be set' => 
-		false,
+		'Um limite de resultado deve ser definido',
 
 		'Must be a valid number or parameter' => 
-		'Deve ser um número ou parâmetro válido', //revisar
+		'Deve ser um número ou parâmetro válido',
 
 		'A page number must be set' => 
 		'Um número de página deve ser definida', //revisar
 
 		'Please ensure name contains at least one Latin-based character.' => 
-		false,
+		'Por favor certifique-se que o nome contem pelo menos um character Latin.', //revisar
 
 		'A Data source with the name %s already exists' => 
-		false,
+		'Um Data source com o nome %s já existe',
 
 		'Failed to write Data source to disk.' => 
-		'Falha ao gravar Data source no disco.', //revisar
+		'Falha ao gravar o Data source no disco.', //revisar
 
 		'Invalid URL' => 
-		false,
+		'URL Inválida',
 
 		'Request timed out. %d second limit reached.' => 
-		false,
+		'Tempo de requisição terminou. %d limite em segundos alcançado.', //revisar
 
 		'Failed to load URL, status code %d was returned.' => 
-		false,
+		'Falha ao carregar URL, código %d retornado.',
 
 		'Events' => 
 		'Eventos',
@@ -399,28 +399,28 @@
 		'Evento atualizado em %s.',
 
 		'View all Events' => 
-		'Ver todos os eventos',
+		'Ver todos os Eventos',
 
 		'Event created at %s.' => 
 		'Evento criado em %s.',
 
 		'Filters' => 
-		false,
+		'Filtros',
 
 		'Event Filters add additional conditions or actions to an event.' => 
-		false,
+		'Evento de Filtro acrescenta condições adicionais ou ações para um evento.',
 
 		'Admin Only' => 
-		'Somente Admin', //revisar
+		'Somente Administrador',
 
 		'Send Notification Email' => 
-		'Enviar e-mail de notificação',
+		'Enviar Email de Notificação',
 
 		'Allow Multiple' => 
-		false,
+		'Permitir Múltiplos',
 
 		'Create Event' => 
-		'Criar evento',
+		'Criar Evento',
 
 		'Delete this event' => 
 		'Excluir este evento',
@@ -429,46 +429,46 @@
 		'Tem certeza que deseja excluir este evento?',
 
 		'An Event with the name %s already exists' => 
-		'Um evento com o nome %s já existe', //revisar
+		'Um Evento com o nome %s já existe',
 
 		'Success and Failure XML Examples' => 
-		false,
+		'Exemplo de XML de Sucesso e Falha',
 
 		'When saved successfully, the following XML will be returned:' => 
-		false,
+		'Quando salva com sucesso, o seguinte XML será retornado:',
 
 		'Entry [created | edited] successfully.' => 
-		false,
+		'Registro [criado | alterado] com sucesso.',
 
 		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned' => 
-		false,
+		'Quando um erro ocorre enquanto está salvando, devido campos faltando ou inválidos, o seguinte XML será retornado' 
 
 		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option' => 
-		false,
+		'Observe que é possível receber mensagens de sucesso e falha misturadas quando estiver usando a opção "Permitir Múltiplo"',
 
 		'Entry encountered errors when saving.' => 
-		false,
+		'Registro encontrou erros quando estava salvando.',
 
 		'The following is an example of what is returned if any options return an error:' => 
 		false,
 
 		'Recipient not found' => 
-		false,
+		'Receptor não encontrado',
 
 		'Example Front-end Form Markup' => 
-		false,
+		'Exemplo de marcação de Formulário Frontend',
 
 		'This is an example of the form markup you can use on your frontend:' => 
-		false,
+		'Este é um exemplo de marcação de formulário que você pode usar no seu fronend:',
 
 		'Submit' => 
 		'Enviar',
 
 		'To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:' => 
-		false,
+		'Para editar um registro, inclua o ID do registro no formulário. Isto é melhor em um campo oculto como este:',
 
 		'To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:' => 
-		false,
+		'Para redirecionar à um endereço diferente enquanto salva, inclua o endereço de redirecionamento no formulário. Isto é melhor em um campo oculto como este, onde o valor é a URL para redirecionar:', //revisar
 
 		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient.' => 
 		false,
@@ -480,7 +480,7 @@
 		false,
 
 		'list of comma-separated author usernames.' => 
-		false,
+		'lista de usuários separados por vírgula.',//revisar
 
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
 		false,
@@ -624,7 +624,7 @@
 		'Entradas',
 
 		'Navigation Group' => 
-		false,
+		'Grupo de Navegação',
 
 		'Are you sure you want to delete the selected sections?' => 
 		'Tem certeza que deseja excluir a seção selecionada?',
@@ -636,7 +636,7 @@
 		false,
 
 		'Set navigation group' => 
-		false,
+		'Definir grupo de navegação',
 
 		'Content' => 
 		'Conteúdo',

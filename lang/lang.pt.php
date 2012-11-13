@@ -1,7 +1,7 @@
 <?php
 
 	$about = array(
-		'name' => 'Português (Portugal)',
+		'name' => 'Portuguese (Portugal)',
 		'author' => array(
 			'name' => 'Your Name',
 			'email' => 'your@email.com',

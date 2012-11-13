@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension id="lang_portuguese" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Language: Portuguese</name>
-	<description>SymphonyCMS translation to Portuguese (Portugal and Brazil).</description>
+	<description>SymphonyCMS translation to Portuguese (Brazil and Portugal).</description>
 	<repo type="github">https://github.com/marciotoledo/lang_portuguese</repo>
 	<types>
 		<type>Translation</type>
@@ -17,8 +17,11 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="0.2" date="2012-11-13" min="2.3.0" max="2.3.1">
+			* 50% of brazil translation ready
+		</release>
 		<release version="0.1" date="2012-11-12" min="2.3.0" max="2.3.1">
-			* 40% of translation ready
+			* 40% of brazil translation ready
 			* Initial Structure and starting the translation
 		</release>
 	</releases>
