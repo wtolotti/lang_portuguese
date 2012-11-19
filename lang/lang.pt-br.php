@@ -474,7 +474,7 @@
 		false,
 
 		'It currently does not work with ‘Allow Multiple’' => 
-		false,
+		'Ele atualmente não funciona com ‘Permitir Múltiplos‘', //revisar
 
 		'The following are the recognised fields:' => 
 		false,
@@ -558,7 +558,7 @@
 		false,
 
 		'URL Parameters' => 
-		false,
+		'Parâmetros URL',
 
 		'Page Resources' => 
 		'Recursos da página', //revisar
@@ -576,10 +576,10 @@
 		'Este é um campo obrigatório.',
 
 		'This document is not well formed.' => 
-		false,
+		'Este documento não está bem formatado.',
 
 		'The following error was returned:' => 
-		false,
+		'O seguinte erro foi encontrado:', //revisar
 
 		'Page Template could not be written to disk.' => 
 		'Página Template não pode ser gravada no disco.', //revisar
@@ -633,7 +633,7 @@
 		'Excluir Entradas',
 
 		'Are you sure you want to delete all entries in the selected sections?' => 
-		false,
+		'Tem certeza que deseja excluir todos os registros nas seções selecionadas?', //revisar
 
 		'Set navigation group' => 
 		'Definir grupo de navegação',
@@ -738,7 +738,7 @@
 		false,
 
 		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
-		false,
+		'Um email contendo o link do login personalizado foi enviado. Ele irá expirar em 2 horas.', //revisar
 
 		'Enter your email address to be sent further instructions for logging in.' => 
 		'Digite seu endereço de email para enviar mais instruções para efetuar o login.',
@@ -771,13 +771,13 @@
 		'Recuperar senha?',
 
 		'New Symphony Account Password' => 
-		false,
+		'Nova Senha da Conta Symphony', //revisar
 
 		'Hi %s,' => 
 		'Olá %s',
 
 		'A new password has been requested for your account. Login using the following link, and change your password via the Authors area:' => 
-		false,
+		'Uma nova senha foi solicitada para sua conta. Logue usando o seguinte link, e mude sua senha através da área de Autores:', //revisar
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
 		'Isto irá expirar em 2 horas. Se você não pediu uma nova senha, por favor desconsidere este email.', //revisar
@@ -807,13 +807,13 @@
 		'Definir %s' ,
 
 		'First' => 
-		false,
+		'Primeiro',
 
 		'&larr; Previous' => 
-		false,
+		'&larr; Anterior',
 
 		'Viewing %1$s - %2$s of %3$s entries' => 
-		false,
+		'Exibindo %1$s - %2$s de %3$s registros', //revisar
 
 		'Go to page …' => 
 		'Ir para página …',
@@ -822,13 +822,13 @@
 		'Página %1$s de %2$s',
 
 		'Next &rarr;' => 
-		false,
+		'Próximo &rarr;',
 
 		'Last' => 
-		false,
+		'Último',
 
 		'Fields must be added to this section before an entry can be created.' => 
-		false,
+		'Campos precisam ser adicionados a esta seção antes do registro ser criado.', //revisar
 
 		'Add fields' => 
 		'Adicionar campos',
@@ -837,7 +837,7 @@
 		'Criar Registros',
 
 		'Some errors were encountered while attempting to save.' => 
-		false,
+		'Alguns erros foram encontrados durante a tentativa de salvar.' , //revisar
 
 		'Unknown Entry' => 
 		'Registro Desconhecido',
@@ -960,46 +960,46 @@
 		'Extensões',
 
 		'Installed Version' => 
-		false,
+		'Versão Instalada',
 
 		'Enabled' => 
-		false,
+		'Habilitado',
 
 		'Not Installed' => 
-		false,
+		'Não Instalado',
 
 		'Enable to install %s' => 
-		false,
+		'Habilitado para instalar %s',
 
 		'Requires Symphony %s' => 
-		false,
+		'Necessita Symphony %s', //revisar
 
 		'Yes' => 
-		false,
+		'Sim',
 
 		'New version %1$s, Requires Symphony %2$s' => 
-		false,
+		'Nova versão %1$s, Necessita Symphony %2$s',
 
 		'Enable to update to %s' => 
-		false,
+		'Permitir a atualização para %s',
 
 		'Disabled' => 
-		false,
+		'Desabilitado',
 
 		'Enable/Install' => 
-		false,
+		'Habilitado/Instalar', //revisar
 
 		'Disable' => 
-		false,
+		'Desabilitar',
 
 		'Uninstall' => 
-		false,
+		'Desinstalar',
 
 		'Are you sure you want to uninstall the selected extensions?' => 
-		false,
+		'Tem certeza que deseja desinstalar as extensões selecionadas?',
 
 		'Preferences' => 
-		false,
+		'Preferências',
 
 		'The Symphony configuration file, %s, is not writable. You will not be able to save changes to preferences.' => 
 		false,
@@ -1008,7 +1008,7 @@
 		false,
 
 		'System Language' => 
-		false,
+		'Linguagem do sistema',
 
 		'Authors can set up a differing language in their profiles.' => 
 		false,
@@ -1020,13 +1020,13 @@
 		false,
 
 		'Could not find extension %s at location %s.' => 
-		false,
+		'Não foi possível encontrar a extensão %s no local %s.', //revisar
 
 		'An extension requires updating.' => 
-		false,
+		'Uma extensão necessita de atualização', //revisar
 
 		'View extensions' => 
-		false,
+		'Vizualizar extensões',
 
 		'An update has been found in your installation to upgrade Symphony to %s.' => 
 		false,
@@ -1098,7 +1098,7 @@
 		'Nenhum registro encontrado.',
 
 		'Could not find Data Source %s.' => 
-		false,
+		'Não foi possível encontrar Data Source %s.',
 
 		'If it was provided by an Extension, ensure that it is installed, and enabled.' => 
 		false,
@@ -1200,16 +1200,16 @@
 		false,
 
 		'Main content' => 
-		false,
+		'Conteúdo Principal',
 
 		'Sidebar' => 
-		false,
+		'Barra Lateral',
 
 		'Formatting' => 
-		false,
+		'Formatação',
 
 		'Validation Rule' => 
-		false,
+		'Regra de Validação', //revisar
 
 		'%s Make this a required field' => 
 		false,
@@ -1221,13 +1221,13 @@
 		false,
 
 		'Invalid element name. Must be valid %s.' => 
-		false,
+		'Nome do elemento inválido. Necessita ser válido %s.', //revisar
 
 		'A field with that element name already exists. Please choose another.' => 
-		false,
+		'Um campo com este nome do elemento já existe. Por favor escolha outro.', //revisar
 
 		'‘%s’ is a required field.' => 
-		false,
+		'‘%s’ é um campo necessário.',
 
 		'Data source output grouping is not supported by the %s field' => 
 		false,
@@ -1236,22 +1236,22 @@
 		false,
 
 		'Could not find Field %1$s at %2$s.' => 
-		false,
+		'Não foi possível encontrar o Campo %1$s em %2$s',
 
 		'Please login to view this page.' => 
-		false,
+		'Por favor logue para vizualizar esta página', //revisar
 
 		'Take me to the login page' => 
-		false,
+		'Leve-me para página de login',
 
 		'Forbidden' => 
-		false,
+		'Proibido',
 
 		'Unable to remove - %s' => 
-		false,
+		'Incapaz de excluír - %s',
 
 		'Unable to remove file - %s' => 
-		false,
+		'Incapaz de excluir o arquivo - %s', //revisar
 
 		'Enforced type `%1$s` for argument `$%2$s` does not match any known variable types.' => 
 		false,
@@ -1260,7 +1260,7 @@
 		false,
 
 		'No errors.' => 
-		false,
+		'Sem erros.',
 
 		'Maximum stack depth exceeded.' => 
 		false,
