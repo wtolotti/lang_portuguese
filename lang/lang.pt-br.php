@@ -861,16 +861,16 @@
 		'Tem certeza que deseja excluir este registro?',
 
 		'Create a new author' => 
-		false,
+		'Criar um novo autor',//revisar 
 
 		'Last Seen' => 
-		false,
+		'Última atividade',
 
 		'Language' => 
-		false,
+		'Linguagem',
 
 		'Email this author' => 
-		false,
+		'Email deste autor',
 
 		'Unknown' => 
 		'Desconhecido',
@@ -879,82 +879,82 @@
 		'Desenvolvido',
 
 		'System Default' => 
-		false,
+		'Padrão do sistema',
 
 		'Are you sure you want to delete the selected authors?' => 
-		false,
+		'Tem certeza que deseja excluir os autores selecionados?', //revisar
 
 		'Access Denied' => 
 		'Acesso Negado',
 
 		'Author updated at %s.' => 
-		false,
+		'Autor atualizado em %s.',
 
 		'View all Authors' => 
-		false,
+		'Vizualizar todos os Autores',
 
 		'Author created at %s.' => 
-		false,
+		'Autor criado em %s.',
 
 		'Author not found' => 
-		false,
+		'Autor não encontrado',
 
 		'The author profile you requested does not exist.' => 
-		false,
+		'O perfil do autor que você solicitou não existe.', //revisar
 
 		'You are not authorised to edit other authors.' => 
-		false,
+		'Você não está autorizado para editar outros autores.', //revisar
 
 		'Login Details' => 
-		false,
+		'Detalhes do Login',
 
 		'Leave password fields blank to keep the current password' => 
-		false,
+		'Deixe os campos de senha em branco para manter a senha atual',
 
 		'Old Password' => 
-		false,
+		'Senha Antiga',
 
 		'New Password' => 
-		false,
+		'Senha Nova',
 
 		'Confirm Password' => 
-		false,
+		'Confirmar Senha',
 
 		'%s Allow remote login via' => 
-		false,
+		'%s Permitir login remoto via', //revisar
 
 		'Default Area' => 
-		false,
+		'Área Padrão',
 
 		'Sections Index' => 
 		false,
 
 		'Custom Preferences' => 
-		false,
+		'Preferências Personalizadas',
 
 		'Create Author' => 
-		false,
+		'Criar Autor',
 
 		'Delete this author' => 
-		false,
+		'Excluir este autor',
 
 		'Are you sure you want to delete this author?' => 
-		false,
+		'Tem certeza que deseja excluir este autor?',
 
 		'Passwords did not match' => 
-		false,
+		'Senhas não coincidem', //revisar
 
 		'There were some problems while attempting to save. Please check below for problem fields.' => 
 		false,
 
 		'Wrong password. Enter old password to change it.' => 
-		false,
+		'Senha errada. Digite a senha antiga para mudá-la.',
 
 		'Wrong password. Enter old one to change email address.' => 
-		false,
+		'Senha errada. Digite a antiga para mudar o endereço de email.', //revisar
 
 		'You cannot remove yourself as you are the active Author.' => 
-		false,
+		'Você não pode excluir a si mesmo enquanto seu Autor está ativo.', //revisar
 
 		'Extensions' => 
 		'Extensões',
@@ -1362,7 +1362,7 @@
 		false,
 
 		'Apply' => 
-		false,
+		'Aplicar',
 
 		'No suitable XSLT processor was found.' => 
 		false,
@@ -1518,13 +1518,13 @@
 		false,
 
 		'File Upload' => 
-		false,
+		'Upload do Arquivo',//revisar
 
 		'Destination Directory' => 
 		false,
 
 		'The destination directory, %s, does not exist.' => 
-		false,
+		'O destino do diretório, %s, não existe', //revisar
 
 		'The destination directory is not writable.' => 
 		false,
