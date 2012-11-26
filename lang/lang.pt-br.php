@@ -441,7 +441,7 @@
 		'Registro [criado | alterado] com sucesso.',
 
 		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned' => 
-		'Quando um erro ocorre enquanto está salvando, devido campos faltando ou inválidos, o seguinte XML será retornado' 
+		'Quando um erro ocorre enquanto está salvando, devido campos faltando ou inválidos, o seguinte XML será retornado', 
 
 		'Notice that it is possible to get mixtures of success and failure messages when using the ‘Allow Multiple’ option' => 
 		'Observe que é possível receber mensagens de sucesso e falha misturadas quando estiver usando a opção "Permitir Múltiplo"',
@@ -699,7 +699,7 @@
 		'Já existe um campo do tipo %s. Pode ter apenas um por seção.', //revisar
 
 		'An unknown database occurred while attempting to create the section.' => 
-		false,
+		'Um banco de dados desconhecido ocorreu durante a tentativa de criar a seção.', //revisar
 
 		'Create a new utility' => 
 		'Criar um novo utilitário',
@@ -1002,19 +1002,19 @@
 		'Preferências',
 
 		'The Symphony configuration file, %s, is not writable. You will not be able to save changes to preferences.' => 
-		false,
+		'O arquivo de configuração Symphony, %s, não é gravável. Você não será capaz de salvar as mudanças em preferências.', //revisar 
 
 		'Preferences saved.' => 
-		false,
+		'Preferências salvo.',
 
 		'System Language' => 
 		'Linguagem do sistema',
 
 		'Authors can set up a differing language in their profiles.' => 
-		false,
+		'Autores poderá aplicar uma linguagem diferente em seus perfis.', //revisar
 
 		'Default Email Settings' => 
-		false,
+		'Configuração Padrão do Email',
 
 		'Gateway' => 
 		false,
@@ -1029,22 +1029,22 @@
 		'Vizualizar extensões',
 
 		'An update has been found in your installation to upgrade Symphony to %s.' => 
-		false,
+		'Uma atualização foi encontrada em sua instalação para atualizar o Symphony para %s.',
 
 		'View update.' => 
 		'Vizualizar atualização',
 
 		'Your Symphony installation is up to date, but the installer was still detected. For security reasons, it should be removed.' => 
-		false,
+		'Sua instalação Symphony está atualizada, mas o instalador ainda foi detectado. Para razões de segurança, deverá ser excluído.', //revisar
 
 		'Remove installer?' => 
 		'Remover instalador?', //revisar
 
 		'An update script has been found in your installation.' => 
-		false,
+		'Um script de atualização foi encontrado em sua instalação.',
 
 		'Cannot request a page callback without first specifying the page.' => 
-		false,
+		'Não pode solicitar uma página de retorno sem antes especificar a página.', //revisar
 
 		'Page Not Found' => 
 		'Página não encontrada',
@@ -1056,13 +1056,13 @@
 		'Timezone inválido %s', //revisar
 
 		'no leading zeros' => 
-		false,
+		'sem zeros iniciais', //revisar
 
 		'The page you requested, %s, does not exist.' => 
 		'A página que solicitou, %s, não existe.', //revisar
 
 		'No suitable engine object found' => 
-		false,
+		'Nenhum objeto engine adequado encontrado', //revisar
 
 		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct.' => 
 		false,
@@ -1194,10 +1194,10 @@
 		'Novo Campo',
 
 		'Label' => 
-		false,
+		'Etiqueta', //revisar
 
 		'Placement' => 
-		false,
+		'Lolalização',
 
 		'Main content' => 
 		'Conteúdo Principal',
@@ -1212,13 +1212,13 @@
 		'Regra de Validação', //revisar
 
 		'%s Make this a required field' => 
-		false,
+		'%s Faça deste um campo necessário',
 
 		'%s Display in entries table' => 
-		false,
+		'%s Exibir na tabela de registros',
 
 		'%s Display relationship in entries table %s' => 
-		false,
+		'%s Exibir relacionamento na tabela de registros %s',
 
 		'Invalid element name. Must be valid %s.' => 
 		'Nome do elemento inválido. Necessita ser válido %s.', //revisar
@@ -1230,10 +1230,10 @@
 		'‘%s’ é um campo necessário.',
 
 		'Data source output grouping is not supported by the %s field' => 
-		false,
+		'O agrupamento de saída do Data source não é suportado pelo campo %s', //revisar
 
 		'Settings for field %s could not be found in table tbl_fields_%s.' => 
-		false,
+		'Configuração para o campo %s não pôde ser encontrada na tabela tbl_fields_%s.',
 
 		'Could not find Field %1$s at %2$s.' => 
 		'Não foi possível encontrar o Campo %1$s em %2$s',
@@ -1263,7 +1263,7 @@
 		'Sem erros.',
 
 		'Maximum stack depth exceeded.' => 
-		false,
+		'Profundidade máxima de stack ultrapassado.', //revisar
 
 		'Underflow or the modes mismatch.' => 
 		false,
@@ -1278,19 +1278,19 @@
 		false,
 
 		'Unknown JSON error' => 
-		false,
+		'Erro JSON desconhecido',
 
 		'JSON not formatted correctly' => 
-		false,
+		'JSON não formatado corretamente',
 
 		'The selected language, %s, could not be found. Using default English dictionary instead.' => 
 		false,
 
 		'MySQL Error (%1$s): %2$s in query: %3$s' => 
-		false,
+		'Erro MySQL (%1$s): %2$s em consulta: %3$s', //revisar
 
 		'Unable to find a Manager class for this resource.' => 
-		false,
+		'Impossível encontrar uma classe Manager para este recurso.', //revisar
 
 		'Release Date' => 
 		'Data de Lançamento',
@@ -1308,58 +1308,58 @@
 		'Por favor verificar permissões em %s',
 
 		'Unsupported SSL type' => 
-		false,
+		'Tipo SSL não suportado',
 
 		'No connection has been established to %s' => 
-		false,
+		'Nenhuma conexão foi estabelecida para %s', 
 
 		'Header fields can only contain strings' => 
-		false,
+		'Campos Header somente pode conter strings', //revisar
 
 		'Can not call HELO on existing session' => 
-		false,
+		'Não é poss[ivel chamar HELO na seção existente', //revisar
 
 		'Must call EHLO (or HELO) before calling MAIL' => 
-		false,
+		'Deve chamar EHLO (ou HELO) antes de chamar MAIL', //revisar
 
 		'Only one call to MAIL may be made at a time.' => 
-		false,
+		'Somente uma chamada para MAIL pode ser feita a tempo.', //revisar
 
 		'Must call MAIL before calling RCPT' => 
-		false,
+		'Deve chamar MAIL antes de chamar RCPT', //revisar
 
 		'Must call RCPT before calling DATA' => 
-		false,
+		'Deve chamar RCPT antes de chamar DATA', //revisar
 
 		'Must call EHLO (or HELO) before calling AUTH' => 
-		false,
+		'Deve chamar EHLO (ou HELO) antes de chamar AUTH', //revisar
 
 		'Can not call AUTH again.' => 
-		false,
+		'Não é possível chamar AUTH novamente.', //revisar
 
 		'Unable to connect via TLS' => 
-		false,
+		'Não é possível conectar via TLS', //revisar
 
 		'Could not send request: %s' => 
-		false,
+		'Não foi possível enviar solicitação: %s',
 
 		'%s has timed out' => 
-		false,
+		'%s tempo terminou', //revisar
 
 		'Could not read from %s' => 
-		false,
+		'Não foi possível ler de %s',
 
 		'Unable to open socket. Unknown error' => 
-		false,
+		'Não é possível abrir socket. Erro desconhecido', //revisar 
 
 		'Unable to open socket. %s' => 
-		false,
+		'Não é possível abrir socket. %s',
 
 		'Unable to set timeout.' => 
-		false,
+		'Não é possível definir tempo limite.',
 
 		'Could not find Text Formatter %s.' => 
-		false,
+		'Não foi possível encontrar Editor de Texto %s.', //revisar
 
 		'Apply' => 
 		'Aplicar',
@@ -1368,7 +1368,7 @@
 		false,
 
 		'Data returned is invalid.' => 
-		false,
+		'O Dado retornado é inválido.', //revisar
 
 		'The %s class failed to acquire a lock, check that %s exists and is writable.' => 
 		false,
@@ -1383,16 +1383,16 @@
 		false,
 
 		'Sendmail (default)' => 
-		false,
+		'Sendmail (padrão)', //revisar
 
 		'Email: Sendmail' => 
 		false,
 
 		'From Name' => 
-		false,
+		'De Nome', //revisar
 
 		'From Email Address' => 
-		false,
+		'De Endereço de Email', //revisar
 
 		'SMTP' => 
 		false,
@@ -1407,100 +1407,100 @@
 		false,
 
 		'Port' => 
-		false,
+		'Porta',
 
 		'No encryption' => 
-		false,
+		'Nenhuma criptografia',
 
 		'SSL encryption' => 
-		false,
+		'Criptografia SSL',
 
 		'TLS encryption' => 
-		false,
+		'Criptografia TLS',
 
 		'For a secure connection, SSL and TLS are supported. Please check the manual of your email provider for more details.' => 
-		false,
+		'Para uma conexão segura, SSL e TLS são suportados. Por favor checar o manual em seu email para mais detalhes.',
 
 		'%s Requires authentication' => 
-		false,
+		'%s Necessita autenticação',
 
 		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
-		false,
+		'Algumas conexões SMTP requer autenticação. Se este é o caso, digite a combinação de usuário/senha abaixo.',
 
 		'Unknown errors where encountered when saving.' => 
-		false,
+		'Erros desconhecidos foram encontrados enquanto salvou.',
 
 		'[Symphony] A new entry was created on %s' => 
-		false,
+		'[Symphony] Um novo registro foi criado em %s',
 
 		'Entry edited successfully.' => 
-		false,
+		'Registro editado com sucesso.',
 
 		'Entry created successfully.' => 
-		false,
+		'Registro criado com sucesso.',
 
 		'Author types' => 
-		false,
+		'Tipos de autor', //revisar a palavra autor
 
 		'%s Allow selection of multiple authors' => 
-		false,
+		'%s Permitir seleção de múltiplos autores',
 
 		'%s Select current user by default' => 
-		false,
+		'%s Selecione usuário atual por padrão',
 
 		'Checkbox' => 
 		false,
 
 		'No' => 
-		false,
+		'Não',
 
 		'%s Checked by default' => 
-		false,
+		'%s Ativado por padrão', //revisar
 
 		'Date' => 
-		false,
+		'Data',
 
 		'%s Pre-populate with current date' => 
-		false,
+		'%s Pré-preencher com a data atual', //revisar
 
 		'The date specified in ‘%s’ is invalid.' => 
-		false,
+		'A data especificada em ‘%s’ é inválida.',
 
 		'Text Input' => 
-		false,
+		'Entrada de Texto',
 
 		'‘%s’ contains invalid data. Please check the contents.' => 
-		false,
+		'‘%s’ contém dados inválidos. Por favor verifique o conteúdo.', //revisar
 
 		'Select Box' => 
-		false,
+		'Selecionar Box', //revisar
 
 		'Predefined Values' => 
-		false,
+		'Valores Predefinidos', //revisar
 
 		'Dynamic Values' => 
-		false,
+		'Valores Dinâmicos', //revisar
 
 		'%s Allow selection of multiple options' => 
-		false,
+		'%s Permitir a seleção de múltiplas opções',
 
 		'available when using Dynamic Values' => 
-		false,
+		'disponível quando usado Valores Dinâmicos', //revisar
 
 		'%s Sort all options alphabetically' => 
-		false,
+		'%s Classificar todas as opções em ordem alfabética', //revisar
 
 		'At least one source must be specified, dynamic or static.' => 
-		false,
+		'Pelo menos uma fonte deve ser especificada, dinâmica ou estática.', //revisar
 
 		'Tag List' => 
-		false,
+		'Lista de Tag', //revisar
 
 		'Suggestion List' => 
-		false,
+		'Lista de Sugestões',
 
 		'Existing Values' => 
-		false,
+		'Valores Existentes',
 
 		'\'%s\' contains invalid data. Please check the contents.' => 
 		false,
@@ -1509,28 +1509,28 @@
 		false,
 
 		'Number of default rows' => 
-		false,
+		'Número de linhas padrão', //revisar
 
 		'Text Formatter' => 
-		false,
+		'Editor de Texto', //revisar
 
 		'‘%s’ contains invalid XML.' => 
-		false,
+		'‘%s’ contém XML inválido.',
 
 		'File Upload' => 
 		'Upload do Arquivo',//revisar
 
 		'Destination Directory' => 
-		false,
+		'Diretório de Destino',
 
 		'The destination directory, %s, does not exist.' => 
 		'O destino do diretório, %s, não existe', //revisar
 
 		'The destination directory is not writable.' => 
-		false,
+		'O diretório de destino não é gravável.',
 
 		'Destination folder is not writable.' => 
-		false,
+		'Pasta de destino não é gravável.',
 
 		'The file uploaded is no longer available. Please check that it exists, and is readable.' => 
 		false,
@@ -1557,28 +1557,28 @@
 		false,
 
 		'Database Error' => 
-		false,
+		'Erro de Banco de Dados',
 
 		'Symphony Database Error' => 
-		false,
+		'Erro de Bancdo de Dados Symphony',
 
 		'Uninstall extension' => 
-		false,
+		'Desinstalar extensão',
 
 		'Uninstall this extension' => 
-		false,
+		'Desinstalar esta extensão',
 
 		'Often the cause of this error is a misnamed extension folder. You can try renaming %s to %s, or you can uninstall the extension to continue.' => 
 		false,
 
 		'Rename folder' => 
-		false,
+		'Renomear pasta',
 
 		'Sorry, but Symphony was unable to rename the folder. You can try renaming %s to %s yourself, or you can uninstall the extension to continue.' => 
 		false,
 
 		'You can try uninstalling the extension to continue, or you might want to ask on the forums' => 
-		false,
+		'Você pode tentar desinstalar a extensão para continuar, ou você pode querer perguntar em fóruns', //revisar
 
 		'XSLT Processing Error' => 
 		false,
@@ -1587,7 +1587,7 @@
 		false,
 
 		'General' => 
-		false,
+		'Geral',
 
 		'Show debug view' => 
 		false,
