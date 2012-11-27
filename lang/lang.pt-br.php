@@ -471,19 +471,19 @@
 		'Para redirecionar à um endereço diferente enquanto salva, inclua o endereço de redirecionamento no formulário. Isto é melhor em um campo oculto como este, onde o valor é a URL para redirecionar:', //revisar
 
 		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient.' => 
-		false,
+		'Após o evento de salvar o registro com sucesso, esta opção leva a entrada do formulário e enviar um e-mail para o destinatário desejado.', //revisar
 
 		'It currently does not work with ‘Allow Multiple’' => 
 		'Ele atualmente não funciona com ‘Permitir Múltiplos‘', //revisar
 
 		'The following are the recognised fields:' => 
-		false,
+		'A seguir estão os campos reconhecidos:', //revisar
 
 		'list of comma-separated author usernames.' => 
 		'lista de usuários separados por vírgula.',//revisar
 
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
-		false,
+		'Todos estes campos podem ser definidos dinamicamente usando o nome do campo exato de outro campo no formulário como mostrado abaixo no formulário de exemplo:', //revisar
 
 		'Message' => 
 		'Mensagem',
@@ -519,7 +519,7 @@
 		'Nenhum encontrado.',
 
 		'With Selected...' => 
-		false,
+		'Selecionado Com...', //revisar
 
 		'Are you sure you want to delete the selected pages?' => 
 		'Tem certeza que deseja excluir as páginas selecionadas?',
@@ -585,22 +585,22 @@
 		'Página Template não pode ser gravada no disco.', //revisar
 
 		'An index type page already exists.' => 
-		false,
+		'Um tipo de página index já existe.', //revisar
 
 		'A 404 type page already exists.' => 
-		false,
+		'Um tipo de página 404 já existe.',
 
 		'A 403 type page already exists.' => 
-		false,
+		'Um tipo de página 403 já existe.',
 
 		'Please ensure handle contains at least one Latin-based character.' => 
-		false,
+		'Porfavor certifique handle contém pelo menos um caracter Latin-based.', //revisar
 
 		'A page with that title already exists' => 
 		'Uma página com este título já existe',
 
 		'A page with that handle already exists' => 
-		false,
+		'Uma página com esta handle já existe',
 
 		'Unknown errors occurred while attempting to save.' => 
 		'Erros desconhecidos foram encontrados ao tentar salvar', //revisar
@@ -612,7 +612,7 @@
 		'Página não pode ser excluída porque ela não existe.', //revisar
 
 		'Page could not be deleted because it has children.' => 
-		false,
+		'Página não pode ser excluída porque tem Filhos.', //revisar
 
 		'One or more pages could not be deleted.' => 
 		'Uma ou mais páginas não podem ser excluídas.',
@@ -798,7 +798,7 @@
 		'Editar Configuração da Seção',
 
 		'An error occurred while retrieving filtered entries. Showing all entries instead.' => 
-		false,
+		'Ocorreu um erro ao tentar recuperar registros filtrados. Mostrando todos os registros de vez.', //revisar
 
 		'Are you sure you want to delete the selected entries?' => 
 		'Tem certeza que deseja excluir os registros selecionados?', //revisar
@@ -927,7 +927,7 @@
 		'Área Padrão',
 
 		'Sections Index' => 
-		false,
+		'Índice de Seções',
 
 		'Custom Preferences' => 
 		'Preferências Personalizadas',
@@ -945,7 +945,7 @@
 		'Senhas não coincidem', //revisar
 
 		'There were some problems while attempting to save. Please check below for problem fields.' => 
-		false,
+		'Houve alguns problemas ao tentar salvar. Por favor verifique abaixo os campos com problemas.', //revisar
 
 		'Wrong password. Enter old password to change it.' => 
 		'Senha errada. Digite a senha antiga para mudá-la.',
@@ -1065,7 +1065,7 @@
 		'Nenhum objeto engine adequado encontrado', //revisar
 
 		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct.' => 
-		false,
+		'Houve um problema enquanto tentava estabelecer conexão com banco de dados. Por favor verifique todas as informações de conexão estão corretas.', //revisar
 
 		'Log out' => 
 		'Sair',
@@ -1257,7 +1257,7 @@
 		false,
 
 		'Argument `$%1$s` is not of type `%2$s`, given `%3$s`.' => 
-		false,
+		'Argumento `$%1$s` não é do tipo `%2$s`, dar `%3$s`.', //revisar
 
 		'No errors.' => 
 		'Sem erros.',
@@ -1269,10 +1269,10 @@
 		false,
 
 		'Unexpected control character found.' => 
-		false,
+		'Controle de caracter inesperado encontrado.', //revisar
 
 		'Syntax error, malformed JSON.' => 
-		false,
+		'Erro de sintaxe, JSON deformado.', //revisar
 
 		'Malformed UTF-8 characters, possibly incorrectly encoded.' => 
 		false,
@@ -1284,7 +1284,7 @@
 		'JSON não formatado corretamente',
 
 		'The selected language, %s, could not be found. Using default English dictionary instead.' => 
-		false,
+		'A linguagem selecionada, %s, não foi possível encontrar. Usando dicionário Inglês padrão.', //revisar
 
 		'MySQL Error (%1$s): %2$s in query: %3$s' => 
 		'Erro MySQL (%1$s): %2$s em consulta: %3$s', //revisar
@@ -1545,7 +1545,7 @@
 		false,
 
 		'File chosen in ‘%s’ was only partially uploaded due to an error.' => 
-		false,
+		'Arquivo escolhido em ‘%s’ foi carregado parcialmente devido a um erro.', //revisar
 
 		'Uploading ‘%s’ failed. Could not write temporary file to disk.' => 
 		false,
