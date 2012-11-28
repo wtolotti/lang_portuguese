@@ -450,7 +450,7 @@
 		'Registro encontrou erros quando estava salvando.',
 
 		'The following is an example of what is returned if any options return an error:' => 
-		false,
+		'O seguinte é um exemplo do que é devolvido se as opções de retornar um erro:', //revisar
 
 		'Recipient not found' => 
 		'Receptor não encontrado',
@@ -1101,7 +1101,7 @@
 		'Não foi possível encontrar Data Source %s.',
 
 		'If it was provided by an Extension, ensure that it is installed, and enabled.' => 
-		false,
+		'Se foi fornecida por uma Extensão, certifique-se se ela está instalada, e habilite.',
 
 		'Edit' => 
 		'Editar',
@@ -1113,82 +1113,82 @@
 		false,
 
 		'Sender Email Address can not contain carriage return or newlines.' => 
-		false,
+		'Endereço de email do remetente não pode conter retorno do transporte ou novas linhas.', //revisar
 
 		'Sender Name can not contain carriage return or newlines.' => 
-		false,
+		'Nome do remetente não pode conter retorno do envio ou novas linhas.', //revisar
 
 		'%1$s is not a supported encoding type. Please use %2$s or %3$s. You can also use %4$s for no encoding.' => 
-		false,
+		'%1$s não é um tipo de codificação suportada. Por favor usar %2$s ou %3$s. Você também pode usar %4$s para nenhuma codificação.', //revisar
 
-		'Reply-To Email Address can not contain carriage return or newlines.' => 
-		false,
+		'Reply-To Email Address can not contain carriage return or newlines.' =>
+		'Responder para o endereço de email não pode conter transporte ou novas linhas.', //revisar 
 
 		'Reply-To Name can not contain carriage return or newlines.' => 
-		false,
+		'Responder para o Nome não pode conter retorno do envio ou novas linhas.', //revisar
 
 		'%s accepts strings only; arrays are not allowed.' => 
-		false,
+		'%s aceita apenas strings; arrays não são permitidas.',
 
 		'Email subject cannot be empty.' => 
-		false,
+		'Assunto do email não pode ser vazio.',
 
 		'Sender email address cannot be empty.' => 
-		false,
+		'Endereço de Email do remetente não pode ser vazio.',
 
 		'Recipient email address cannot be empty.' => 
-		false,
+		'Email do destinatário não pode ser vazio.',
 
 		'The email address ‘%s’ is invalid.' => 
-		false,
+		'O endereço de email ‘%s’ é inválido.',
 
 		'No attachments or body text was set. Can not send empty email.' => 
-		false,
+		'Sem anexos ou corpo do texto foi definido. Não pode enviar email vazio.', //revisar
 
 		'The %1$s gateway does not support the use of %2$s' => 
-		false,
+		'O %1$s gateway não suporta o uso de %2$s',
 
 		'This gateway can not be found. Can not save as default.' => 
-		false,
+		'Este gateway não pode ser encontrado. Não é possível salvar como padrão.', //revisar
 
 		'Could not find Email Gateway %s.' => 
-		false,
+		'Não é possível encontrar Email do Gateway %s.',
 
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
-		false,
+		'Limite de registro especificado não era um tipo válido. String ou Integer esperado.', //revisar
 
 		'This event has been customised and cannot be viewed from Symphony.' => 
-		false,
+		'Este evento foi personalizada e não pode ser vizualizada de Symphony.', //revisar
 
 		'Could not find Event %s.' => 
-		false,
+		'Não foi possível encontrar Evento %s.',
 
 		'The field ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		false,
+		'O campo ‘%s’, fornecida pela Extensão ‘%s’, está atualmente em uso.',
 
 		'Please remove it from your sections prior to uninstalling or disabling.' => 
-		false,
+		'Por favor excluir de suas secões antes de desinstalar ou desabilitar.', //revisar
 
 		'The Data Source ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		false,
+		'O Data Source ‘%s’, fornecida pela Extensão ‘%s’, está atualmente em uso.',
 
 		'Please remove it from your pages prior to uninstalling or disabling.' => 
-		false,
+		'Por favor excluir de suas páginas antes de desinstalar ou desabilitar.',
 
 		'The Event ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		false,
+		'O Evento ‘%s’, fornecida pela Extensão ‘%s’ está atualmente em uso.',
 
 		'The Text Formatter ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		false,
+		'O Formatador de Texto ‘%s’, fornecida pela Extensão ‘%s’, está atualmente em uso.',
 
 		'Please remove it from your fields prior to uninstalling or disabling.' => 
-		false,
+		'Por favor excluir de seus campos antes de desinstalar ou desabilitar.',
 
 		'Missing default namespace definition.' => 
-		false,
+		'Faltando definir namespace padrão.', //revisar
 
 		'The %1$s file for the %2$s extension is not valid XML: %3$s' => 
-		false,
+		'O %1$s arquivo para o %2$s extensão não é XML válido: %3$s', //revisar
 
 		'New Field' => 
 		'Novo Campo',
@@ -1197,7 +1197,7 @@
 		'Etiqueta', //revisar
 
 		'Placement' => 
-		'Lolalização',
+		'Localização',
 
 		'Main content' => 
 		'Conteúdo Principal',
@@ -1254,7 +1254,7 @@
 		'Incapaz de excluir o arquivo - %s', //revisar
 
 		'Enforced type `%1$s` for argument `$%2$s` does not match any known variable types.' => 
-		false,
+		'Tipo forçado `%1$s` para argumento `$%2$s` não corresponde a qualquer tipos conhecidos de variáveis.', //revisar
 
 		'Argument `$%1$s` is not of type `%2$s`, given `%3$s`.' => 
 		'Argumento `$%1$s` não é do tipo `%2$s`, dar `%3$s`.', //revisar
@@ -1266,7 +1266,7 @@
 		'Profundidade máxima de stack ultrapassado.', //revisar
 
 		'Underflow or the modes mismatch.' => 
-		false,
+		'Underflow ou a incompatibilidade de modos.', //revisar
 
 		'Unexpected control character found.' => 
 		'Controle de caracter inesperado encontrado.', //revisar
@@ -1275,7 +1275,7 @@
 		'Erro de sintaxe, JSON deformado.', //revisar
 
 		'Malformed UTF-8 characters, possibly incorrectly encoded.' => 
-		false,
+		'Caracter UTF-8 deformado, possívelmente condificado incorretamente.',
 
 		'Unknown JSON error' => 
 		'Erro JSON desconhecido',
@@ -1365,22 +1365,22 @@
 		'Aplicar',
 
 		'No suitable XSLT processor was found.' => 
-		false,
+		'Nenhum processador XSLT adequado foi encontrado.',
 
 		'Data returned is invalid.' => 
 		'O Dado retornado é inválido.', //revisar
 
 		'The %s class failed to acquire a lock, check that %s exists and is writable.' => 
-		false,
+		'A classe %s falhou a adquirir um bloqueio, verificar se %s existe e é gravável.', //revisar
 
 		'Transformed XML is invalid.' => 
-		false,
+		'XML transformado é inválido.', //revisar
 
 		'Error creating field object with id %1$d, for filtering in data source %2$s. Check this field exists.' => 
-		false,
+		'Erro ao criar objeto de campo com id %1$d, para filtragem de data source %2$s. Verificar se este campo existe.', //revisar
 
 		'The Section, %s, associated with the Data source, %s, could not be found.' => 
-		false,
+		'A Seção, %s, associado com o Data source, %s, não pôde ser encontrado.',
 
 		'Sendmail (default)' => 
 		'Sendmail (padrão)', //revisar
@@ -1389,10 +1389,10 @@
 		false,
 
 		'From Name' => 
-		'De Nome', //revisar
+		false,
 
 		'From Email Address' => 
-		'De Endereço de Email', //revisar
+		false,
 
 		'SMTP' => 
 		false,
@@ -1503,7 +1503,7 @@
 		'Valores Existentes',
 
 		'\'%s\' contains invalid data. Please check the contents.' => 
-		false,
+		'\'%s\' contém dado inválido. Por favor verificar o conteúdo.',
 
 		'Textarea' => 
 		false,
@@ -1533,28 +1533,28 @@
 		'Pasta de destino não é gravável.',
 
 		'The file uploaded is no longer available. Please check that it exists, and is readable.' => 
-		false,
+		'O arquivo enviado não está mais disponível. Por favor verifique se ele existe, e é legível.',
 
 		'File chosen in ‘%s’ does not match allowable file types for that field.' => 
-		false,
+		'Arquivo escolhido em ‘%s’ não corresponde tipos de arquivos permitidos para este campo.', //revisar
 
 		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s specified by your host.' => 
-		false,
+		'Arquivo escolhido em ‘%1$s’ excede o máximo permitido de tamanho do envio de %2$s especificado em seu host.', //revisar
 
 		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s, specified by Symphony.' => 
-		false,
+		'Arquivo escolhido em ‘%1$s’ excede o máximo permitido de tamanho do envio de %2$s especificado por Symphony.',
 
 		'File chosen in ‘%s’ was only partially uploaded due to an error.' => 
 		'Arquivo escolhido em ‘%s’ foi carregado parcialmente devido a um erro.', //revisar
 
 		'Uploading ‘%s’ failed. Could not write temporary file to disk.' => 
-		false,
+		'Envio ‘%s’ falhou. Não foi possível gravar arquivo temporário no disco.',
 
 		'Uploading ‘%s’ failed. File upload stopped by extension.' => 
-		false,
+		'Envio ‘%s’ falhou. Envio de arquivo parado pela extensão.',
 
 		'There was an error while trying to upload the file %1$s to the target directory %2$s.' => 
-		false,
+		'Houve um erro ao tentar enviar o arquivo %1$s para o diretório de destino %2$s.',
 
 		'Database Error' => 
 		'Erro de Banco de Dados',
@@ -1569,13 +1569,13 @@
 		'Desinstalar esta extensão',
 
 		'Often the cause of this error is a misnamed extension folder. You can try renaming %s to %s, or you can uninstall the extension to continue.' => 
-		false,
+		'Muitas vezes a causa deste erro é uma pasta de extensão misnamed. Você pode tentar renomear %s para %s, ou você pode desinstalar a extensão para continuar.', //revisar
 
 		'Rename folder' => 
 		'Renomear pasta',
 
 		'Sorry, but Symphony was unable to rename the folder. You can try renaming %s to %s yourself, or you can uninstall the extension to continue.' => 
-		false,
+		'Desculpe, mas Symphony desativou para renomear a pasta. Você pode tentar renomear %s para %s, ou você pode desinstalar a extensão para continuar.', //revisar
 
 		'You can try uninstalling the extension to continue, or you might want to ask on the forums' => 
 		'Você pode tentar desinstalar a extensão para continuar, ou você pode querer perguntar em fóruns', //revisar
@@ -1584,25 +1584,25 @@
 		false,
 
 		'This page could not be rendered due to the following XSLT processing errors:' => 
-		false,
+		'Esta página não pode ser processada devido a erros de processamento XSLT seguintes:', //revisar
 
 		'General' => 
 		'Geral',
 
 		'Show debug view' => 
-		false,
+		'Mostrar depuraração', //revisar
 
 		'Debug' => 
-		false,
+		'Depurar',
 
 		'Show debug view for %s' => 
-		false,
+		'Mostrar depuração para %s', //revisar
 
 		'Show line %d in debug view' => 
-		false,
+		'Mostrar linha %d em depuração', //revisar
 
 		'Blueprints' => 
-		false,
+		'Projeto', //revisar
 
 		'yesterday' => 
 		'ontem',
