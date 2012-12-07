@@ -84,34 +84,34 @@
 		'Um erro de banco de dados ocorreu enquando tentava reordenar.',
 
 		'%1$s &ndash; %2$s' => 
-		false,
+		'%1$s &ndash; %2$s',
 
 		'Data Sources' => 
-		false,
+		'Fontes de Dados',
 
 		'Symphony' => 
-		false,
+		'Sinfonia', // =)
 
 		'Create New' => 
 		'Criar Novo',
 
 		'Create a new data source' => 
-		'Criar um novo data source',
+		'Criar uma nova fonte de dados',
 
 		'An error occurred while processing this form. See below for details.' => 
 		'Um erro ocorreu enquanto processava este form. Veja detalhes abaixo.',
 
 		'Data source updated at %s.' => 
-		'Data source atualizado em %s.',
+		'Fonte de Dados atualizada em %s.',
 
 		'Create another?' => 
 		'Criar outro?',
 
 		'View all Data sources' => 
-		'Ver todos os Data Sources',
+		'Ver todas as Fontes de Dados',
 
 		'Data source created at %s.' => 
-		'Data Source criado em %s.',
+		'Fonte de Dados criada em %s.',
 
 		'Untitled' => 
 		'Sem título',
@@ -144,7 +144,7 @@
 		'XML Estático',
 
 		'From extensions' => 
-		false, //revisar
+		'Das extensões', //revisar
 
 		'Sections' => 
 		'Seções',
@@ -156,7 +156,7 @@
 		'Use %s sintaxe para filtrar por parâmetros de página.', //revisar
 
 		'$param' => 
-		false,
+		'$param',
 
 		'Add filter' => 
 		'Adicionar filtro',
@@ -177,7 +177,7 @@
 		'Data Alterada do Sistema', //revisar
 
 		'ID' => 
-		false,
+		'ID',
 
 		'Username' => 
 		'Usuário',
@@ -189,7 +189,7 @@
 		'Último Nome',
 
 		'Email' => 
-		false,
+		'Email',
 
 		'User Type' => 
 		'Tipo de Usuário',
@@ -219,7 +219,7 @@
 		'ID da Página',
 
 		'Handle' => 
-		false,
+		'Tratamento de URL',
 
 		'Sort Order' => 
 		'Ordem', //revisar
@@ -279,7 +279,7 @@
 		'%s texto com HTML-encode',
 
 		'URL' => 
-		false,
+		'URL',
 
 		'Use %s syntax to specify dynamic portions of the URL.' => 
 		'Use %s sintaxe para especificar partes dinâmicas da URL.',
@@ -294,10 +294,10 @@
 		'Remover namespace',
 
 		'Namespace' => 
-		false,
+		'Espaço de Nome',
 
 		'URI' => 
-		false,
+		'URI',
 
 		'Use an XPath expression to select which elements from the source XML to include.' => 
 		'Use uma expressão XPath para selecionar cada elemento de origem XML para incluir. ',
@@ -312,22 +312,22 @@
 		'Salvar Alterações',
 
 		'Create Data Source' => 
-		'Criar Data Source',
+		'Criar Fonte de Dados',
 
 		'Delete' => 
 		'Excluir',
 
 		'Delete this data source' => 
-		'Excluir este data source',
+		'Excluir esta fonte de dados',
 
 		'Are you sure you want to delete this data source?' => 
-		'Tem certeza que deseja excluir este data source?',
+		'Tem certeza que deseja excluir esta fonte de dados?',
 
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
-		false,
+		'%1$s &ndash; %2$s &ndash; %3$s',
 
 		'Data Source' => 
-		false,
+		'Fonte de Dados',
 
 		'Version' => 
 		'Versão',
@@ -375,10 +375,10 @@
 		'Por favor certifique-se que o nome contem pelo menos um character Latin.', //revisar
 
 		'A Data source with the name %s already exists' => 
-		'Um Data source com o nome %s já existe',
+		'Uma Fonte de Dados com o nome %s já existe',
 
 		'Failed to write Data source to disk.' => 
-		'Falha ao gravar o Data source no disco.', //revisar
+		'Falha ao gravar a Fonte de Dados no disco.', //revisar
 
 		'Invalid URL' => 
 		'URL Inválida',
@@ -501,10 +501,10 @@
 		'Título',
 
 		'Template' => 
-		false,
+		'Template',
 
 		'Universal Resource Locator' => 
-		false,
+		'Localizador Universal de Recursos',
 
 		'Parameters' => 
 		'Parâmetros',
@@ -555,13 +555,13 @@
 		'Configurações da Página',
 
 		'URL Handle' => 
-		false,
+		'Tratamento de URL',
 
 		'URL Parameters' => 
-		'Parâmetros URL',
+		'Parâmetros de URL',
 
 		'Page Resources' => 
-		'Recursos da página', //revisar
+		'Recursos de Página',
 
 		'Create Page' => 
 		'Criar Página',
@@ -594,13 +594,13 @@
 		'Um tipo de página 403 já existe.',
 
 		'Please ensure handle contains at least one Latin-based character.' => 
-		'Porfavor certifique handle contém pelo menos um caracter Latin-based.', //revisar
+		'Por favor certifique se o tratamento de url contém pelo menos um caracter Latin-based.', //revisar
 
 		'A page with that title already exists' => 
 		'Uma página com este título já existe',
 
 		'A page with that handle already exists' => 
-		'Uma página com esta handle já existe',
+		'Uma página com este tratamento de url já existe',
 
 		'Unknown errors occurred while attempting to save.' => 
 		'Erros desconhecidos foram encontrados ao tentar salvar', //revisar
@@ -693,7 +693,7 @@
 		'A Seção com o nome %s já existe',
 
 		'A field with this handle already exists. All handle must be unique.' => 
-		'Um campo com este handle já existe, Todo handle deve ser único.', //revisar
+		'Um campo com este tratamento de url já existe, Todo tratamento de url deve ser único.', //revisar
 
 		'There is already a field of type %s. There can only be one per section.' => 
 		'Já existe um campo do tipo %s. Pode ter apenas um por seção.', //revisar
@@ -735,7 +735,7 @@
 		'Utilitário não pode ser gravado no disco.', 
 
 		'Login' => 
-		false,
+		'Acesso',
 
 		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
 		'Um email contendo o link do login personalizado foi enviado. Ele irá expirar em 2 horas.', //revisar
@@ -1017,7 +1017,7 @@
 		'Configuração Padrão do Email',
 
 		'Gateway' => 
-		false,
+		'Gateway',
 
 		'Could not find extension %s at location %s.' => 
 		'Não foi possível encontrar a extensão %s no local %s.', //revisar
@@ -1098,7 +1098,7 @@
 		'Nenhum registro encontrado.',
 
 		'Could not find Data Source %s.' => 
-		'Não foi possível encontrar Data Source %s.',
+		'Não foi possível encontrar Fonte de Dados %s.',
 
 		'If it was provided by an Extension, ensure that it is installed, and enabled.' => 
 		'Se foi fornecida por uma Extensão, certifique-se se ela está instalada, e habilite.',
@@ -1110,7 +1110,7 @@
 		'Utilitário',
 
 		'Email Gateway Error' => 
-		false,
+		'Erro no Gateway de Email',
 
 		'Sender Email Address can not contain carriage return or newlines.' => 
 		'Endereço de email do remetente não pode conter retorno do transporte ou novas linhas.', //revisar
@@ -1170,7 +1170,7 @@
 		'Por favor excluir de suas secões antes de desinstalar ou desabilitar.', //revisar
 
 		'The Data Source ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		'O Data Source ‘%s’, fornecida pela Extensão ‘%s’, está atualmente em uso.',
+		'A Fonte de Dados ‘%s’, fornecida pela Extensão ‘%s’, está atualmente em uso.',
 
 		'Please remove it from your pages prior to uninstalling or disabling.' => 
 		'Por favor excluir de suas páginas antes de desinstalar ou desabilitar.',
@@ -1230,7 +1230,7 @@
 		'‘%s’ é um campo necessário.',
 
 		'Data source output grouping is not supported by the %s field' => 
-		'O agrupamento de saída do Data source não é suportado pelo campo %s', //revisar
+		'O agrupamento de saída da Fonte de Dados não é suportado pelo campo %s',
 
 		'Settings for field %s could not be found in table tbl_fields_%s.' => 
 		'Configuração para o campo %s não pôde ser encontrada na tabela tbl_fields_%s.',
@@ -1374,37 +1374,37 @@
 		'A classe %s falhou a adquirir um bloqueio, verificar se %s existe e é gravável.', //revisar
 
 		'Transformed XML is invalid.' => 
-		'XML transformado é inválido.', //revisar
+		'XML transformado é inválido.',
 
 		'Error creating field object with id %1$d, for filtering in data source %2$s. Check this field exists.' => 
-		'Erro ao criar objeto de campo com id %1$d, para filtragem de data source %2$s. Verificar se este campo existe.', //revisar
+		'Erro ao criar objeto campo com id %1$d, para filtragem na fonte de dados %2$s. Verificar se este campo existe.',
 
 		'The Section, %s, associated with the Data source, %s, could not be found.' => 
-		'A Seção, %s, associado com o Data source, %s, não pôde ser encontrado.',
+		'A Seção, %s, associado com a Fonte de Dados, %s, não pôde ser encontrada.',
 
 		'Sendmail (default)' => 
-		'Sendmail (padrão)', //revisar
+		'Sendmail (padrão)',
 
 		'Email: Sendmail' => 
-		false,
+		'Email: Sendmail',
 
 		'From Name' => 
-		false,
+		'Nome do Remetente',
 
 		'From Email Address' => 
-		false,
+		'Email do Remetente',
 
 		'SMTP' => 
-		false,
+		'SMTP',
 
 		'The Envelope From Address can not contain carriage return or newlines.' => 
-		false,
+		'O Endereço do Remetente não pode conter enter/return ou novas linhas.',
 
 		'Email: SMTP' => 
-		false,
+		'Email: SMTP',
 
 		'Host' => 
-		false,
+		'Servidor',
 
 		'Port' => 
 		'Porta',
@@ -1449,7 +1449,7 @@
 		'%s Selecione usuário atual por padrão',
 
 		'Checkbox' => 
-		false,
+		'Caixa de verificação',
 
 		'No' => 
 		'Não',
@@ -1506,7 +1506,7 @@
 		'\'%s\' contém dado inválido. Por favor verificar o conteúdo.',
 
 		'Textarea' => 
-		false,
+		'Área de texto',
 
 		'Number of default rows' => 
 		'Número de linhas padrão', //revisar
@@ -1578,31 +1578,31 @@
 		'Desculpe, mas Symphony desativou para renomear a pasta. Você pode tentar renomear %s para %s, ou você pode desinstalar a extensão para continuar.', //revisar
 
 		'You can try uninstalling the extension to continue, or you might want to ask on the forums' => 
-		'Você pode tentar desinstalar a extensão para continuar, ou você pode querer perguntar em fóruns', //revisar
+		'Você pode tentar desinstalando a extensão para continuar, ou você pode querer perguntar em fóruns',
 
 		'XSLT Processing Error' => 
-		false,
+		'Erro de Processamento XSLT',
 
 		'This page could not be rendered due to the following XSLT processing errors:' => 
-		'Esta página não pode ser processada devido a erros de processamento XSLT seguintes:', //revisar
+		'Esta página não pode ser renderizada devido ao seguintes erros de processamento XSLT:',
 
 		'General' => 
 		'Geral',
 
 		'Show debug view' => 
-		'Mostrar depuraração', //revisar
+		'Mostrar depuraração',
 
 		'Debug' => 
 		'Depurar',
 
 		'Show debug view for %s' => 
-		'Mostrar depuração para %s', //revisar
+		'Mostrar depuração para %s',
 
 		'Show line %d in debug view' => 
-		'Mostrar linha %d em depuração', //revisar
+		'Mostrar linha %d na depuração',
 
 		'Blueprints' => 
-		'Projeto', //revisar
+		'Projeto',
 
 		'yesterday' => 
 		'ontem',
@@ -1695,22 +1695,22 @@
 		'Dezembro',
 
 		'Jan' => 
-		false,
+		'Jan',
 
 		'Feb' => 
 		'Fev',
 
 		'Mar' => 
-		false,
+		'Mar',
 
 		'Apr' => 
 		'Abr',
 
 		'Jun' => 
-		false,
+		'Jun',
 
 		'Jul' => 
-		false,
+		'Jul',
 
 		'Aug' => 
 		'Ago',
@@ -1722,7 +1722,7 @@
 		'Out',
 
 		'Nov' => 
-		false,
+		'Nov',
 
 		'Dec' => 
 		'Dez',
@@ -1734,7 +1734,7 @@
 		'segundo',
 
 		'min' => 
-		false,
+		'min',
 
 		'minute' => 
 		'minuto',
@@ -1749,7 +1749,7 @@
 		'quinzena',
 
 		'forthnight' => 
-		false,
+		'quinzenas',
 
 		'month' => 
 		'mês',
@@ -1779,7 +1779,7 @@
 		'quinzenas',
 
 		'forthnights' => 
-		false,
+		'quinzenas',
 
 		'months' => 
 		'meses',
