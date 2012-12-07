@@ -96,13 +96,13 @@
 		'Criar Novo',
 
 		'Create a new data source' => 
-		'Criar uma nova fonte de dados',
+		'Criar um novo data source',
 
 		'An error occurred while processing this form. See below for details.' => 
 		'Um erro ocorreu enquanto processava este form. Veja detalhes abaixo.',
 
 		'Data source updated at %s.' => 
-		'Fonte de Dados atualizada em %s.',
+		'Data Source atualizado em %s.',
 
 		'Create another?' => 
 		'Criar outro?',
@@ -111,7 +111,7 @@
 		'Ver todas as Fontes de Dados',
 
 		'Data source created at %s.' => 
-		'Fonte de Dados criada em %s.',
+		'Data Source criado em %s.',
 
 		'Untitled' => 
 		'Sem título',
@@ -312,22 +312,22 @@
 		'Salvar Alterações',
 
 		'Create Data Source' => 
-		'Criar Fonte de Dados',
+		'Criar Data Source',
 
 		'Delete' => 
 		'Excluir',
 
 		'Delete this data source' => 
-		'Excluir esta fonte de dados',
+		'Excluir este data source',
 
 		'Are you sure you want to delete this data source?' => 
-		'Tem certeza que deseja excluir esta fonte de dados?',
+		'Tem certeza que deseja excluir este data source?',
 
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
 		'%1$s &ndash; %2$s &ndash; %3$s',
 
 		'Data Source' => 
-		'Fonte de Dados',
+		'Data Source',
 
 		'Version' => 
 		'Versão',
@@ -375,10 +375,10 @@
 		'Por favor certifique-se que o nome contem pelo menos um character Latin.', //revisar
 
 		'A Data source with the name %s already exists' => 
-		'Uma Fonte de Dados com o nome %s já existe',
+		'Um Data Source com o nome %s já existe',
 
 		'Failed to write Data source to disk.' => 
-		'Falha ao gravar a Fonte de Dados no disco.', //revisar
+		'Falha ao gravar o Data Source no disco.', //revisar
 
 		'Invalid URL' => 
 		'URL Inválida',
@@ -1098,7 +1098,7 @@
 		'Nenhum registro encontrado.',
 
 		'Could not find Data Source %s.' => 
-		'Não foi possível encontrar Fonte de Dados %s.',
+		'Não foi possível encontrar Data Source %s.',
 
 		'If it was provided by an Extension, ensure that it is installed, and enabled.' => 
 		'Se foi fornecida por uma Extensão, certifique-se se ela está instalada, e habilite.',
@@ -1170,7 +1170,7 @@
 		'Por favor excluir de suas secões antes de desinstalar ou desabilitar.', //revisar
 
 		'The Data Source ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		'A Fonte de Dados ‘%s’, fornecida pela Extensão ‘%s’, está atualmente em uso.',
+		'O Data Source ‘%s’, fornecido pela Extensão ‘%s’, está atualmente em uso.',
 
 		'Please remove it from your pages prior to uninstalling or disabling.' => 
 		'Por favor excluir de suas páginas antes de desinstalar ou desabilitar.',
@@ -1230,7 +1230,7 @@
 		'‘%s’ é um campo necessário.',
 
 		'Data source output grouping is not supported by the %s field' => 
-		'O agrupamento de saída da Fonte de Dados não é suportado pelo campo %s',
+		'O agrupamento de saída do Data Source não é suportado pelo campo %s',
 
 		'Settings for field %s could not be found in table tbl_fields_%s.' => 
 		'Configuração para o campo %s não pôde ser encontrada na tabela tbl_fields_%s.',
@@ -1377,10 +1377,10 @@
 		'XML transformado é inválido.',
 
 		'Error creating field object with id %1$d, for filtering in data source %2$s. Check this field exists.' => 
-		'Erro ao criar objeto campo com id %1$d, para filtragem na fonte de dados %2$s. Verificar se este campo existe.',
+		'Erro ao criar objeto campo com id %1$d, para filtragem no data source %2$s. Verificar se este campo existe.',
 
 		'The Section, %s, associated with the Data source, %s, could not be found.' => 
-		'A Seção, %s, associado com a Fonte de Dados, %s, não pôde ser encontrada.',
+		'A Seção, %s, associada com o Data Source, %s, não pôde ser encontrada.',
 
 		'Sendmail (default)' => 
 		'Sendmail (padrão)',

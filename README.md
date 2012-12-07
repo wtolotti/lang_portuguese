@@ -1,8 +1,8 @@
 # Language Portuguese
 
-- Version: 0.1 (Under development)
+- Version: 0.9 (Testing and Revision)
 - Author: Marcio Toledo and Willian Tolotti (Toledo Interactive Team)
-- Release Date: NULL
+- Release Date: 2012-12-07
 - Requirements: Symphony 2.3 or greater
 
 ## Installation and Usage
@@ -14,9 +14,9 @@
 
 ## Updating
 
-1. Repeat the Step 1 above.
+1. Repeat the Step 1 and 2 above.
 
 ## Notes
 
-- Download only to test, improve and contribute, is not ready yet.
+- Improve and contribute, is not ready yet.
 - If you are from Portugal, please help us to finish this bundle. @Nils sugestion: http://getsymphony.com/discuss/thread/94612/
