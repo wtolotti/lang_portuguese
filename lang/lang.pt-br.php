@@ -987,7 +987,7 @@
 		'Desabilitado',
 
 		'Enable/Install' => 
-		'Habilitado/Instalar', //revisar
+		'Habilitar/Instalar',
 
 		'Disable' => 
 		'Desabilitar',
