@@ -90,16 +90,16 @@
 		'Fontes de Dados',
 
 		'Symphony' => 
-		'Sinfonia', // =)
+		'Symphony', // =)  hehe
 
 		'Create New' => 
 		'Criar Novo',
 
 		'Create a new data source' => 
-		'Criar um novo data source',
+		'Criar uma nova Fonte de Dados',
 
 		'An error occurred while processing this form. See below for details.' => 
-		'Um erro ocorreu enquanto processava este form. Veja detalhes abaixo.',
+		'Um erro ocorreu enquanto processava este formulário. Veja detalhes abaixo.',
 
 		'Data source updated at %s.' => 
 		'Data Source atualizado em %s.',
@@ -111,7 +111,7 @@
 		'Ver todas as Fontes de Dados',
 
 		'Data source created at %s.' => 
-		'Data Source criado em %s.',
+		'Fonte de Dados criado em %s.',
 
 		'Untitled' => 
 		'Sem título',
@@ -144,16 +144,16 @@
 		'XML Estático',
 
 		'From extensions' => 
-		'Das extensões', //revisar
+		'Das extensões',
 
 		'Sections' => 
 		'Seções',
 
 		'Filter Results' => 
-		'Resultados do Filtro', //revisar
+		'Resultados do Filtro',
 
 		'Use %s syntax to filter by page parameters.' => 
-		'Use %s sintaxe para filtrar por parâmetros de página.', //revisar
+		'Use a sintaxe %s para filtrar por parâmetros da página.',
 
 		'$param' => 
 		'$param',
@@ -165,16 +165,16 @@
 		'Remover filtro',
 
 		'System ID' => 
-		'ID do Sistema', //revisar
+		'ID do Sistema',
 
 		'Value' => 
 		'Valor',
 
 		'System Creation Date' => 
-		'Data de Criação do Sistema', //revisar
+		'Data de Criação do Sistema',
 
 		'System Modified Date' => 
-		'Data Alterada do Sistema', //revisar
+		'Data de Alteração do Sistema',
 
 		'ID' => 
 		'ID',
@@ -195,19 +195,19 @@
 		'Tipo de Usuário',
 
 		'Parent Page' => 
-		'Página Pai', //revisar
+		'Página Pai',
 
 		'Page Type' => 
-		'Tipo de Página',
+		'Tipo da Página',
 
 		'Sorting and Limiting' => 
 		'Ordenando e Limitando',
 
 		'Use %s syntax to limit by page parameters.' => 
-		'Use %s sintaxe para limitar por parâmetros de página.', //revisar
+		'Use %s sintaxe para limitar por parâmetros de página.',
 
 		'Sort By' => 
-		'Organizar por',
+		'Ordenar por',
 
 		'Author ID' => 
 		'ID do Autor',
@@ -222,7 +222,7 @@
 		'Tratamento de URL',
 
 		'Sort Order' => 
-		'Ordem', //revisar
+		'Ordenamento', //revisar
 
 		'System Modification Date' => 
 		'Data de Modificação do Sistema',
@@ -282,19 +282,19 @@
 		'URL',
 
 		'Use %s syntax to specify dynamic portions of the URL.' => 
-		'Use %s sintaxe para especificar partes dinâmicas da URL.',
+		'Use a sintaxe %s para especificar partes dinâmicas da URL.',
 
 		'Namespace Declarations' => 
-		'Declarações de Namespace',
+		'Declarações de Palavra Chave',
 
 		'Add namespace' => 
-		'Adicionar namespace',
+		'Adicionar Palavra Chave',
 
 		'Remove namespace' => 
-		'Remover namespace',
+		'Remover Palavra Chave',
 
 		'Namespace' => 
-		'Espaço de Nome',
+		'Palavra Chave',
 
 		'URI' => 
 		'URI',
@@ -303,7 +303,7 @@
 		'Use uma expressão XPath para selecionar cada elemento de origem XML para incluir. ',
 
 		'Update cached result every %s minutes' => 
-		'Atualizar resultados em cache a cada %s minutes',
+		'Atualizar resultados em cache a cada %s minutos',
 
 		'Body' => 
 		'Corpo',
@@ -312,22 +312,22 @@
 		'Salvar Alterações',
 
 		'Create Data Source' => 
-		'Criar Data Source',
+		'Criar Fonte de Dados',
 
 		'Delete' => 
 		'Excluir',
 
 		'Delete this data source' => 
-		'Excluir este data source',
+		'Excluir esta Fonte de Dados',
 
 		'Are you sure you want to delete this data source?' => 
-		'Tem certeza que deseja excluir este data source?',
+		'Tem certeza que deseja excluir este Fonte de Dados?',
 
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
 		'%1$s &ndash; %2$s &ndash; %3$s',
 
 		'Data Source' => 
-		'Data Source',
+		'Fonte de Dados',
 
 		'Version' => 
 		'Versão',
@@ -342,7 +342,7 @@
 		'Descrição',
 
 		'Example XML' => 
-		'Exemplo XML',
+		'Exemplo de XML',
 
 		'Failed to delete %s.' => 
 		'Falha ao excluir %s.',
@@ -354,7 +354,7 @@
 		'Este é um campo obrigatório',
 
 		'XML is invalid.' => 
-		'XML não é válido.',
+		'XML é inválido.',
 
 		'Must be a valid number' => 
 		'Deve ser um número válido',
@@ -375,10 +375,10 @@
 		'Por favor certifique-se que o nome contem pelo menos um character Latin.', //revisar
 
 		'A Data source with the name %s already exists' => 
-		'Um Data Source com o nome %s já existe',
+		'Uma Fonte de Dados com o nome %s já existe',
 
 		'Failed to write Data source to disk.' => 
-		'Falha ao gravar o Data Source no disco.', //revisar
+		'Falha ao gravar a Fonte de Dados no disco.',
 
 		'Invalid URL' => 
 		'URL Inválida',
@@ -387,7 +387,7 @@
 		'Tempo de requisição terminou. %d limite em segundos alcançado.', //revisar
 
 		'Failed to load URL, status code %d was returned.' => 
-		'Falha ao carregar URL, código %d retornado.',
+		'Falha ao carregar URL, código de estado %d retornado.',
 
 		'Events' => 
 		'Eventos',
@@ -408,7 +408,7 @@
 		'Filtros',
 
 		'Event Filters add additional conditions or actions to an event.' => 
-		'Evento de Filtro acrescenta condições adicionais ou ações para um evento.',
+		'Filtros de Eventos acrescentam condições adicionais ou ações para um evento.',
 
 		'Admin Only' => 
 		'Somente Administrador',
@@ -435,7 +435,7 @@
 		'Exemplo de XML de Sucesso e Falha',
 
 		'When saved successfully, the following XML will be returned:' => 
-		'Quando salva com sucesso, o seguinte XML será retornado:',
+		'Quando salvo com sucesso, o seguinte XML será retornado:',
 
 		'Entry [created | edited] successfully.' => 
 		'Registro [criado | alterado] com sucesso.',
@@ -450,13 +450,13 @@
 		'Registro encontrou erros quando estava salvando.',
 
 		'The following is an example of what is returned if any options return an error:' => 
-		'O seguinte é um exemplo do que é devolvido se as opções de retornar um erro:', //revisar
+		'O seguinte é um exemplo do que é retornado se alguma opção retornar um erro:',
 
 		'Recipient not found' => 
 		'Receptor não encontrado',
 
 		'Example Front-end Form Markup' => 
-		'Exemplo de marcação de Formulário Frontend',
+		'Exemplo de Marcação de Formulário de Frontend',
 
 		'This is an example of the form markup you can use on your frontend:' => 
 		'Este é um exemplo de marcação de formulário que você pode usar no seu fronend:',
@@ -465,22 +465,22 @@
 		'Enviar',
 
 		'To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:' => 
-		'Para editar um registro, inclua o ID do registro no formulário. Isto é melhor em um campo oculto como este:',
+		'Para editar um registro existente, inclua o ID do registro no formulário. Isto é melhor em um campo oculto como este:',
 
 		'To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:' => 
-		'Para redirecionar à um endereço diferente enquanto salva, inclua o endereço de redirecionamento no formulário. Isto é melhor em um campo oculto como este, onde o valor é a URL para redirecionar:', //revisar
+		'Para redirecionar à um endereço diferente após salvo com sucesso, inclua o endereço de redirecionamento no formulário. Isto é melhor em um campo oculto como este, onde o valor é a URL para redirecionar:',
 
 		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient.' => 
-		'Após o evento de salvar o registro com sucesso, esta opção leva a entrada do formulário e enviar um e-mail para o destinatário desejado.', //revisar
+		'Após o evento salvar o registro com sucesso, esta opção pega a entrada do formulário e envia um e-mail para o destinatário desejado.',
 
 		'It currently does not work with ‘Allow Multiple’' => 
-		'Ele atualmente não funciona com ‘Permitir Múltiplos‘', //revisar
+		'Atualmente não funciona com ‘Permitir Múltiplos‘',
 
 		'The following are the recognised fields:' => 
-		'A seguir estão os campos reconhecidos:', //revisar
+		'A seguir estão os campos reconhecidos:',
 
 		'list of comma-separated author usernames.' => 
-		'lista de usuários separados por vírgula.',//revisar
+		'lista de nome de usuários separados por vírgula.',
 
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
 		'Todos estes campos podem ser definidos dinamicamente usando o nome do campo exato de outro campo no formulário como mostrado abaixo no formulário de exemplo:', //revisar
@@ -489,7 +489,7 @@
 		'Mensagem',
 
 		'Failed to write Event to disk.' => 
-		'Falha ao gravar Evento no disco.',
+		'Falha ao gravar o Evento no disco.',
 
 		'Pages' => 
 		'Páginas',
@@ -501,7 +501,7 @@
 		'Título',
 
 		'Template' => 
-		'Template',
+		'Modelo',
 
 		'Universal Resource Locator' => 
 		'Localizador Universal de Recursos',
@@ -519,7 +519,7 @@
 		'Nenhum encontrado.',
 
 		'With Selected...' => 
-		'Selecionado Com...', //revisar
+		'Com os selecionados...',
 
 		'Are you sure you want to delete the selected pages?' => 
 		'Tem certeza que deseja excluir as páginas selecionadas?',
@@ -579,13 +579,13 @@
 		'Este documento não está bem formatado.',
 
 		'The following error was returned:' => 
-		'O seguinte erro foi encontrado:', //revisar
+		'O seguinte erro foi retornado:',
 
 		'Page Template could not be written to disk.' => 
-		'Página Template não pode ser gravada no disco.', //revisar
+		'Modelo de Página não pôde ser gravado no disco.',
 
 		'An index type page already exists.' => 
-		'Um tipo de página index já existe.', //revisar
+		'Um tipo de página index já existe.',
 
 		'A 404 type page already exists.' => 
 		'Um tipo de página 404 já existe.',
@@ -603,25 +603,25 @@
 		'Uma página com este tratamento de url já existe',
 
 		'Unknown errors occurred while attempting to save.' => 
-		'Erros desconhecidos foram encontrados ao tentar salvar', //revisar
+		'Erros desconhecidos foram encontrados ao tentar salvar',
 
 		'Check your activity log' => 
-		'Verifique seu log de atividade', //revisar
+		'Verifique seu registro de atividade',
 
 		'Page could not be deleted because it does not exist.' => 
-		'Página não pode ser excluída porque ela não existe.', //revisar
+		'Página não pode ser excluída porque ela não existe.',
 
 		'Page could not be deleted because it has children.' => 
-		'Página não pode ser excluída porque tem Filhos.', //revisar
+		'Página não pode ser excluída porque tem Filhos.',
 
 		'One or more pages could not be deleted.' => 
 		'Uma ou mais páginas não podem ser excluídas.',
 
 		'Create a section' => 
-		'Criar uma seção',
+		'Criar uma Seção',
 
 		'Entries' => 
-		'Entradas',
+		'Registros',
 
 		'Navigation Group' => 
 		'Grupo de Navegação',
@@ -630,10 +630,10 @@
 		'Tem certeza que deseja excluir a seção selecionada?',
 
 		'Delete Entries' => 
-		'Excluir Entradas',
+		'Excluir Registros',
 
 		'Are you sure you want to delete all entries in the selected sections?' => 
-		'Tem certeza que deseja excluir todos os registros nas seções selecionadas?', //revisar
+		'Tem certeza que deseja excluir todos os registros nas Seções selecionadas?',
 
 		'Set navigation group' => 
 		'Definir grupo de navegação',
@@ -660,13 +660,13 @@
 		'Excluir campo',
 
 		'Create Section' => 
-		'Criar seção',
+		'Criar Seção',
 
 		'Unknown Section' => 
 		'Seção desconhecida',
 
 		'The Section, %s, could not be found.' => 
-		'A Seção, %s, não pôde ser encontrada', //revisar
+		'A Seção, %s, não pôde ser encontrada',
 
 		'Section updated at %s.' => 
 		'Seção atualizada em %s.',
@@ -678,31 +678,31 @@
 		'Seção criada em %s.',
 
 		'View Entries' => 
-		'Vizualizar Entradas',
+		'Vizualizar Registros',
 
 		'View Section Entries' => 
-		'Vizualizar Entradas da Seção', //revisar
+		'Vizualizar Registros da Seção',
 
 		'Delete this section' => 
-		'Excluir esta seção',
+		'Excluir esta Seção',
 
 		'Are you sure you want to delete this section?' => 
-		'Tem certeza que deseja excluir esta seção?',
+		'Tem certeza que deseja excluir esta Seção?',
 
 		'A Section with the name %s already exists' => 
-		'A Seção com o nome %s já existe',
+		'Uma Seção com o nome %s já existe',
 
 		'A field with this handle already exists. All handle must be unique.' => 
-		'Um campo com este tratamento de url já existe, Todo tratamento de url deve ser único.', //revisar
+		'Um campo com este tratamento de url já existe. Todo tratamento de url deve ser único.',
 
 		'There is already a field of type %s. There can only be one per section.' => 
-		'Já existe um campo do tipo %s. Pode ter apenas um por seção.', //revisar
+		'Já existe um campo do tipo %s. Pode haver apenas um por Seção.',
 
-		'An unknown database occurred while attempting to create the section.' => 
+		'An unknown database occurred while attempting to create the section.' => //'unknown database' parece ser o nome do erro...
 		'Um banco de dados desconhecido ocorreu durante a tentativa de criar a seção.', //revisar
 
 		'Create a new utility' => 
-		'Criar um novo utilitário',
+		'Criar um novo Utilitário',
 
 		'Utility updated at %s.' => 
 		'Utilitário atualizado em %s.',
@@ -717,7 +717,7 @@
 		'Criar Utilitário',
 
 		'Delete this utility' => 
-		'Excluir este utilitário',
+		'Excluir este Utilitário',
 
 		'Are you sure you want to delete this Utility?' => 
 		'Tem certeza que deseja excluir este Utilitário?',
@@ -726,10 +726,10 @@
 		'Nome é um campo necessário.',
 
 		'Body is a required field.' => 
-		'Corpo é um campo necessário.', //revisar
+		'Corpo é um campo necessário.',
 
 		'A Utility with that name already exists. Please choose another.' => 
-		'Um Utilitário com este nome já existe. Por favor escolha outra.',
+		'Um Utilitário com este nome já existe. Por favor escolha outro.',
 
 		'Utility could not be written to disk.' => 
 		'Utilitário não pode ser gravado no disco.', 
@@ -738,16 +738,16 @@
 		'Acesso',
 
 		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
-		'Um email contendo o link do login personalizado foi enviado. Ele irá expirar em 2 horas.', //revisar
+		'Um email contendo um endereço de acesso personalizado foi enviado. Ele irá expirar em 2 horas.',
 
 		'Enter your email address to be sent further instructions for logging in.' => 
-		'Digite seu endereço de email para enviar mais instruções para efetuar o login.',
+		'Digite seu endereço de email para ser enviado mais instruções para acesso.',
 
 		'Email Address' => 
 		'Endereço de Email',
 
 		'There was a problem locating your account. Please check that you are using the correct email address.' => 
-		'Houve um problema ao localizar sua conta. Por favor verifique se está usando o endereço de email correto.', //revisar
+		'Houve um problema ao localizar sua conta. Por favor verifique se está usando o endereço de email correto.',
 
 		'Send Email' => 
 		'Enviar Email',
@@ -756,22 +756,22 @@
 		'Cancelar',
 
 		'The login details provided are incorrect.' => 
-		'Os detalhes de login fornecidos estão incorretos.', //revisar
+		'Os detalhes de acesso fornecidos estão incorretos.',
 
 		'No username was entered.' => 
-		'Nenhum usuário foi digitado.', //revisar
+		'Nenhum nome de usuário foi digitado.',
 
 		'Password' => 
 		'Senha',
 
 		'No password was entered.' => 
-		'Nenhuma senha foi digitada.', //revisar
+		'Nenhuma senha foi digitada.',
 
 		'Retrieve password?' => 
 		'Recuperar senha?',
 
 		'New Symphony Account Password' => 
-		'Nova Senha da Conta Symphony', //revisar
+		'Nova Senha da Conta Symphony', //revisar - acho que ta certo
 
 		'Hi %s,' => 
 		'Olá %s',
