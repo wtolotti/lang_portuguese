@@ -1,9 +1,9 @@
 # Language Portuguese
 
-- Version: 0.9 (Testing and Revision)
-- Author: Marcio Toledo and Willian Tolotti (Toledo Interactive Team)
-- Release Date: 2012-12-07
-- Requirements: Symphony 2.3 or greater
+- Version: 0.9.1 (Revision)
+- Author: Marcio Toledo, Willian Tolotti and Bernardo Dias da Cruz
+- Release Date: 15th December 2012
+- Requirements: Symphony 2.3.1 or greater
 
 ## Installation and Usage
 
@@ -18,5 +18,5 @@
 
 ## Notes
 
-- Improve and contribute, is not ready yet.
+- You can use but it's under revision.
 - If you are from Portugal, please help us to finish this bundle. @Nils sugestion: http://getsymphony.com/discuss/thread/94612/

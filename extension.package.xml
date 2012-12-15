@@ -5,7 +5,7 @@
 		<file location="/">extension.meta.xml</file>
 		<file location="/">extension.package.xml</file>
 		<file location="/">README.md</file>
-		<file location="/">LICENSE.md</file>
+		<file location="/">LICENSE</file>
 		<file location="/lang">lang.pt-br.php</file>
 		<file location="/lang">lang.pt.php</file>
 	</files>

@@ -7,7 +7,7 @@
 			'email' => 'mt@marciotoledo.com',
 			'website' => 'http://marciotoledo.com'
 		),
-		'release-date' => '2012-11-09'
+		'release-date' => '2012-12-15'
 	);
 
 	/**
@@ -90,7 +90,7 @@
 		'Fontes de Dados',
 
 		'Symphony' => 
-		'Symphony', // =)  hehe
+		'Symphony',
 
 		'Create New' => 
 		'Criar Novo',
@@ -219,10 +219,10 @@
 		'ID da Página',
 
 		'Handle' => 
-		'Tratamento de URL',
+		'Handle',
 
 		'Sort Order' => 
-		'Ordenamento', //revisar
+		'Ordenação',
 
 		'System Modification Date' => 
 		'Data de Modificação do Sistema',
@@ -246,7 +246,7 @@
 		'Opcional',
 
 		'An empty result will be returned when this parameter does not have a value.' => 
-		'Um resultado vazio será retornado quando este parâmetro não tiver valor.', //revisar
+		'Um resultado vazio será retornado quando este parâmetro não tiver valor.',
 
 		'%s Redirect to 404 page when no results are found' => 
 		'%s Redirecionar para página 404 quando não encontrar resultados',
@@ -321,7 +321,7 @@
 		'Excluir esta Fonte de Dados',
 
 		'Are you sure you want to delete this data source?' => 
-		'Tem certeza que deseja excluir este Fonte de Dados?',
+		'Tem certeza que deseja excluir esta Fonte de Dados?',
 
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
 		'%1$s &ndash; %2$s &ndash; %3$s',
@@ -369,10 +369,10 @@
 		'Deve ser um número ou parâmetro válido',
 
 		'A page number must be set' => 
-		'Um número de página deve ser definida', //revisar
+		'Um número de página deve ser definido',
 
 		'Please ensure name contains at least one Latin-based character.' => 
-		'Por favor certifique-se que o nome contem pelo menos um character Latin.', //revisar
+		'Por favor certifique-se que o nome contém pelo menos um caractere Latin.',
 
 		'A Data source with the name %s already exists' => 
 		'Uma Fonte de Dados com o nome %s já existe',
@@ -483,7 +483,7 @@
 		'lista de nome de usuários separados por vírgula.',
 
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
-		'Todos estes campos podem ser definidos dinamicamente usando o nome do campo exato de outro campo no formulário como mostrado abaixo no formulário de exemplo:', //revisar
+		'Todos estes campos podem ser definidos dinamicamente usando o nome do campo exato de outro campo no formulário como mostrado abaixo no formulário de exemplo:',
 
 		'Message' => 
 		'Mensagem',
@@ -555,7 +555,7 @@
 		'Configurações da Página',
 
 		'URL Handle' => 
-		'Tratamento de URL',
+		'URL Handle',
 
 		'URL Parameters' => 
 		'Parâmetros de URL',
@@ -594,13 +594,13 @@
 		'Um tipo de página 403 já existe.',
 
 		'Please ensure handle contains at least one Latin-based character.' => 
-		'Por favor certifique se o tratamento de url contém pelo menos um caracter Latin-based.', //revisar
+		'Por favor certifique que o handle contém pelo menos um caracter Latin.',
 
 		'A page with that title already exists' => 
 		'Uma página com este título já existe',
 
 		'A page with that handle already exists' => 
-		'Uma página com este tratamento de url já existe',
+		'Uma página com este handle já existe',
 
 		'Unknown errors occurred while attempting to save.' => 
 		'Erros desconhecidos foram encontrados ao tentar salvar',
@@ -693,13 +693,13 @@
 		'Uma Seção com o nome %s já existe',
 
 		'A field with this handle already exists. All handle must be unique.' => 
-		'Um campo com este tratamento de url já existe. Todo tratamento de url deve ser único.',
+		'Um campo com este handle já existe. Todo handle deve ser único.',
 
 		'There is already a field of type %s. There can only be one per section.' => 
 		'Já existe um campo do tipo %s. Pode haver apenas um por Seção.',
 
-		'An unknown database occurred while attempting to create the section.' => //'unknown database' parece ser o nome do erro...
-		'Um banco de dados desconhecido ocorreu durante a tentativa de criar a seção.', //revisar
+		'An unknown database occurred while attempting to create the section.' =>
+		'Ocorreu um erro desconhecido de Banco de Dados enquanto tentava criar a Seção.',
 
 		'Create a new utility' => 
 		'Criar um novo Utilitário',
@@ -771,22 +771,22 @@
 		'Recuperar senha?',
 
 		'New Symphony Account Password' => 
-		'Nova Senha da Conta Symphony', //revisar - acho que ta certo
+		'Nova Senha da Conta Symphony',
 
 		'Hi %s,' => 
 		'Olá %s',
 
 		'A new password has been requested for your account. Login using the following link, and change your password via the Authors area:' => 
-		'Uma nova senha foi solicitada para sua conta. Logue usando o seguinte link, e mude sua senha através da área de Autores:', //revisar
+		'Uma nova senha foi solicitada para sua conta. Logue usando o seguinte link, e mude sua senha através da área de Autores:',
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
-		'Isto irá expirar em 2 horas. Se você não pediu uma nova senha, por favor desconsidere este email.', //revisar
+		'Isto irá expirar em 2 horas. Se você não pediu uma nova senha, por favor desconsidere este email.',
 
 		'Best Regards,' => 
 		'Atenciosamente,',
 
 		'The Symphony Team' => 
-		'O Time Symphony', //revisar
+		'O Time Symphony',
 
 		'Create a new entry' => 
 		'Criar um novo registro',
