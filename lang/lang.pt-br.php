@@ -594,7 +594,7 @@
 		'Um tipo de página 403 já existe.',
 
 		'Please ensure handle contains at least one Latin-based character.' => 
-		'Por favor certifique que o handle contém pelo menos um caracter Latin.',
+		'Por favor certifique que o handle contenha pelo menos um caractere Latin.',
 
 		'A page with that title already exists' => 
 		'Uma página com este título já existe',
@@ -699,7 +699,7 @@
 		'Já existe um campo do tipo %s. Pode haver apenas um por Seção.',
 
 		'An unknown database occurred while attempting to create the section.' =>
-		'Ocorreu um erro desconhecido de Banco de Dados enquanto tentava criar a Seção.',
+		'Ocorreu um erro de banco de dados desconhecido enquanto tentava criar a Seção.',
 
 		'Create a new utility' => 
 		'Criar um novo Utilitário',
@@ -798,10 +798,10 @@
 		'Editar Configuração da Seção',
 
 		'An error occurred while retrieving filtered entries. Showing all entries instead.' => 
-		'Ocorreu um erro ao tentar recuperar registros filtrados. Mostrando todos os registros de vez.', //revisar
+		'Ocorreu um erro ao tentar recuperar os registros filtrados. Mostrando todos os registros então.', //revisar
 
 		'Are you sure you want to delete the selected entries?' => 
-		'Tem certeza que deseja excluir os registros selecionados?', //revisar
+		'Tem certeza que deseja excluir os registros selecionados?',
 
 		'Set %s' => 
 		'Definir %s' ,
@@ -813,7 +813,7 @@
 		'&larr; Anterior',
 
 		'Viewing %1$s - %2$s of %3$s entries' => 
-		'Exibindo %1$s - %2$s de %3$s registros', //revisar
+		'Exibindo %1$s - %2$s de %3$s registros',
 
 		'Go to page …' => 
 		'Ir para página …',
@@ -828,7 +828,7 @@
 		'Último',
 
 		'Fields must be added to this section before an entry can be created.' => 
-		'Campos precisam ser adicionados a esta seção antes do registro ser criado.', //revisar
+		'Campos precisam ser adicionados a esta Seção antes de um registro ser criado.',
 
 		'Add fields' => 
 		'Adicionar campos',
@@ -837,7 +837,7 @@
 		'Criar Registros',
 
 		'Some errors were encountered while attempting to save.' => 
-		'Alguns erros foram encontrados durante a tentativa de salvar.' , //revisar
+		'Alguns erros foram encontrados durante a tentativa de salvar.' ,
 
 		'Unknown Entry' => 
 		'Registro Desconhecido',
@@ -861,7 +861,7 @@
 		'Tem certeza que deseja excluir este registro?',
 
 		'Create a new author' => 
-		'Criar um novo autor',//revisar 
+		'Criar um novo autor',
 
 		'Last Seen' => 
 		'Última atividade',
@@ -869,8 +869,8 @@
 		'Language' => 
 		'Linguagem',
 
-		'Email this author' => 
-		'Email deste autor',
+		'Email this author' =>  // acho que 'email' está aqui como verbo
+		'Enviar email para este autor', // revisar
 
 		'Unknown' => 
 		'Desconhecido',
@@ -882,7 +882,7 @@
 		'Padrão do sistema',
 
 		'Are you sure you want to delete the selected authors?' => 
-		'Tem certeza que deseja excluir os autores selecionados?', //revisar
+		'Tem certeza que deseja excluir os autores selecionados?',
 
 		'Access Denied' => 
 		'Acesso Negado',
@@ -900,13 +900,13 @@
 		'Autor não encontrado',
 
 		'The author profile you requested does not exist.' => 
-		'O perfil do autor que você solicitou não existe.', //revisar
+		'O perfil do autor que você solicitou não existe.',
 
 		'You are not authorised to edit other authors.' => 
-		'Você não está autorizado para editar outros autores.', //revisar
+		'Você não está autorizado para editar outros autores.',
 
 		'Login Details' => 
-		'Detalhes do Login',
+		'Detalhes de Acesso',
 
 		'Leave password fields blank to keep the current password' => 
 		'Deixe os campos de senha em branco para manter a senha atual',
@@ -921,7 +921,7 @@
 		'Confirmar Senha',
 
 		'%s Allow remote login via' => 
-		'%s Permitir login remoto via', //revisar
+		'%s Permitir acesso remoto via',
 
 		'Default Area' => 
 		'Área Padrão',
@@ -942,19 +942,19 @@
 		'Tem certeza que deseja excluir este autor?',
 
 		'Passwords did not match' => 
-		'Senhas não coincidem', //revisar
+		'Senhas não combinam',
 
 		'There were some problems while attempting to save. Please check below for problem fields.' => 
-		'Houve alguns problemas ao tentar salvar. Por favor verifique abaixo os campos com problemas.', //revisar
+		'Houve alguns problemas ao tentar salvar. Por favor verifique abaixo os campos com problemas.',
 
 		'Wrong password. Enter old password to change it.' => 
 		'Senha errada. Digite a senha antiga para mudá-la.',
 
 		'Wrong password. Enter old one to change email address.' => 
-		'Senha errada. Digite a antiga para mudar o endereço de email.', //revisar
+		'Senha errada. Digite a antiga para mudar o endereço de email.',
 
 		'You cannot remove yourself as you are the active Author.' => 
-		'Você não pode excluir a si mesmo enquanto seu Autor está ativo.', //revisar
+		'Você não pode excluir a si mesmo enquanto você é o Autor ativo.',
 
 		'Extensions' => 
 		'Extensões',
@@ -972,16 +972,16 @@
 		'Habilitado para instalar %s',
 
 		'Requires Symphony %s' => 
-		'Necessita Symphony %s', //revisar
+		'Necessita do Symphony %s',
 
 		'Yes' => 
 		'Sim',
 
 		'New version %1$s, Requires Symphony %2$s' => 
-		'Nova versão %1$s, Necessita Symphony %2$s',
+		'Nova versão %1$s, Necessita do Symphony %2$s',
 
 		'Enable to update to %s' => 
-		'Permitir a atualização para %s',
+		'Habilitar a atualização para %s',
 
 		'Disabled' => 
 		'Desabilitado',
@@ -1002,28 +1002,28 @@
 		'Preferências',
 
 		'The Symphony configuration file, %s, is not writable. You will not be able to save changes to preferences.' => 
-		'O arquivo de configuração Symphony, %s, não é gravável. Você não será capaz de salvar as mudanças em preferências.', //revisar 
+		'O arquivo de configuração Symphony, %s, não é gravável. Você não será capaz de salvar as mudanças em preferências.',
 
 		'Preferences saved.' => 
-		'Preferências salvo.',
+		'Preferências salvas.',
 
 		'System Language' => 
 		'Linguagem do sistema',
 
 		'Authors can set up a differing language in their profiles.' => 
-		'Autores poderá aplicar uma linguagem diferente em seus perfis.', //revisar
+		'Autores podem definir uma linguagem diferente em seus perfis.',
 
 		'Default Email Settings' => 
-		'Configuração Padrão do Email',
+		'Configurações Padrões de Email',
 
 		'Gateway' => 
 		'Gateway',
 
 		'Could not find extension %s at location %s.' => 
-		'Não foi possível encontrar a extensão %s no local %s.', //revisar
+		'Não foi possível encontrar a extensão %s no local %s.',
 
 		'An extension requires updating.' => 
-		'Uma extensão necessita de atualização', //revisar
+		'Uma extensão necessita de atualização', 
 
 		'View extensions' => 
 		'Vizualizar extensões',
@@ -1035,10 +1035,10 @@
 		'Vizualizar atualização',
 
 		'Your Symphony installation is up to date, but the installer was still detected. For security reasons, it should be removed.' => 
-		'Sua instalação Symphony está atualizada, mas o instalador ainda foi detectado. Para razões de segurança, deverá ser excluído.', //revisar
+		'Sua instalação Symphony está atualizada, mas o instalador ainda foi detectado. Por razões de segurança, deve ser removido.',
 
 		'Remove installer?' => 
-		'Remover instalador?', //revisar
+		'Remover instalador?',
 
 		'An update script has been found in your installation.' => 
 		'Um script de atualização foi encontrado em sua instalação.',
@@ -1053,13 +1053,13 @@
 		'A página solicitada não existe.',
 
 		'Invalid timezone %s' => 
-		'Timezone inválido %s', //revisar
+		'Timezone inválido %s',
 
 		'no leading zeros' => 
-		'sem zeros iniciais', //revisar
+		'sem zeros iniciais', //revisar - ou 'sem zeros à esquerda' ?
 
 		'The page you requested, %s, does not exist.' => 
-		'A página que solicitou, %s, não existe.', //revisar
+		'A página que você solicitou, %s, não existe.',
 
 		'No suitable engine object found' => 
 		'Nenhum objeto engine adequado encontrado', //revisar
