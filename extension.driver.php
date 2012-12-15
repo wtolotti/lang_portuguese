@@ -14,10 +14,10 @@
 				'release-date' => '2012-12-07',
 				'author' => array(
 					'name' => 'Marcio Toledo',
-					'website' => 'http://pierrebertet.net/',
-					'email' => 'bonjour@pierrebertet.net'
+					'website' => 'http://marciotoledo.com/',
+					'email' => 'mt@marciotoledo.com'
 				),
-				'description' => __('French translation for the Symphony backend'),
+				'description' => __('Portuguese translation for the Symphony backend'),
 				'compatibility' => array(
 					'2.3' => true,
 					'2.3.1' => true
