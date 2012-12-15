@@ -798,7 +798,7 @@
 		'Editar Configuração da Seção',
 
 		'An error occurred while retrieving filtered entries. Showing all entries instead.' => 
-		'Ocorreu um erro ao tentar recuperar os registros filtrados. Mostrando todos os registros então.', //revisar
+		'Ocorreu um erro ao tentar recuperar os registros filtrados. Mostrando todos os registros em vez disso.',
 
 		'Are you sure you want to delete the selected entries?' => 
 		'Tem certeza que deseja excluir os registros selecionados?',
