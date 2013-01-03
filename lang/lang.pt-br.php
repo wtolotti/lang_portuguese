@@ -7,7 +7,7 @@
 			'email' => 'mt@marciotoledo.com',
 			'website' => 'http://marciotoledo.com'
 		),
-		'release-date' => '2012-12-15'
+		'release-date' => '2013-01-03'
 	);
 
 	/**

@@ -1,9 +1,9 @@
 # Language Portuguese
 
-- Version: 0.9.1 (Revision)
+- Version: 1.0
 - Author: Marcio Toledo, Willian Tolotti and Bernardo Dias da Cruz
-- Release Date: 15th December 2012
-- Requirements: Symphony 2.3.1 or greater
+- Release Date: 03 January 2013
+- Requirements: Symphony 2.3 or greater
 
 ## Installation and Usage
 

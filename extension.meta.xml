@@ -21,6 +21,9 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.0" date="2013-01-03" min="2.3">
+			* 100% of brazilian translation revised, ready to use.
+		</release>
 		<release version="0.9.1" date="2012-12-14" min="2.3">
 			* 100% of brazilian translation ready, 50% of revision.
 		</release>
