@@ -1044,7 +1044,7 @@
 		'Um script de atualização foi encontrado em sua instalação.',
 
 		'Cannot request a page callback without first specifying the page.' => 
-		'Não pode solicitar uma página de retorno sem antes especificar a página.', //revisar
+		'Não pode solicitar uma chamada de retorno de página sem antes especificar a página.',
 
 		'Page Not Found' => 
 		'Página não encontrada',
@@ -1056,16 +1056,16 @@
 		'Timezone inválido %s',
 
 		'no leading zeros' => 
-		'sem zeros iniciais', //revisar - ou 'sem zeros à esquerda' ?
+		'sem zeros à esquerda',
 
 		'The page you requested, %s, does not exist.' => 
 		'A página que você solicitou, %s, não existe.',
 
 		'No suitable engine object found' => 
-		'Nenhum objeto engine adequado encontrado', //revisar
+		'Nenhum objeto motor adequado encontrado', //revisar
 
 		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct.' => 
-		'Houve um problema enquanto tentava estabelecer conexão com banco de dados. Por favor verifique todas as informações de conexão estão corretas.', //revisar
+		'Houve um problema enquanto tentava estabelecer conexão com banco de dados. Por favor verifique todas as informações de conexão estão corretas.',
 
 		'Log out' => 
 		'Sair',
@@ -1113,19 +1113,19 @@
 		'Erro no Gateway de Email',
 
 		'Sender Email Address can not contain carriage return or newlines.' => 
-		'Endereço de email do remetente não pode conter retorno do transporte ou novas linhas.', //revisar
+		'Endereço de Email do Remetente não pode conter caracteres de retorno ou novas linhas.',
 
 		'Sender Name can not contain carriage return or newlines.' => 
-		'Nome do remetente não pode conter retorno do envio ou novas linhas.', //revisar
+		'Nome do remetente não pode conter caracteres de retorno ou novas linhas.',
 
 		'%1$s is not a supported encoding type. Please use %2$s or %3$s. You can also use %4$s for no encoding.' => 
-		'%1$s não é um tipo de codificação suportada. Por favor usar %2$s ou %3$s. Você também pode usar %4$s para nenhuma codificação.', //revisar
+		'%1$s não é um tipo de codificação suportado. Por favor usar %2$s ou %3$s. Você também pode usar %4$s para nenhuma codificação.',
 
 		'Reply-To Email Address can not contain carriage return or newlines.' =>
-		'Responder para o endereço de email não pode conter transporte ou novas linhas.', //revisar 
+		'Responder para o endereço de email não pode conter caracteres de retorno ou novas linhas.',
 
 		'Reply-To Name can not contain carriage return or newlines.' => 
-		'Responder para o Nome não pode conter retorno do envio ou novas linhas.', //revisar
+		'Responder para o Nome não pode conter caracteres de retorno ou novas linhas.',
 
 		'%s accepts strings only; arrays are not allowed.' => 
 		'%s aceita apenas strings; arrays não são permitidas.',
@@ -1143,31 +1143,31 @@
 		'O endereço de email ‘%s’ é inválido.',
 
 		'No attachments or body text was set. Can not send empty email.' => 
-		'Sem anexos ou corpo do texto foi definido. Não pode enviar email vazio.', //revisar
+		'Nenhum anexo ou corpo do texto foi definido. Não pode enviar email vazio.',
 
 		'The %1$s gateway does not support the use of %2$s' => 
-		'O %1$s gateway não suporta o uso de %2$s',
+		'O gateway %1$s não suporta o uso de %2$s',
 
 		'This gateway can not be found. Can not save as default.' => 
-		'Este gateway não pode ser encontrado. Não é possível salvar como padrão.', //revisar
+		'Este gateway não pode ser encontrado. Não é possível salvar como padrão.',
 
 		'Could not find Email Gateway %s.' => 
 		'Não é possível encontrar Email do Gateway %s.',
 
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
-		'Limite de registro especificado não era um tipo válido. String ou Integer esperado.', //revisar
+		'Limite de registros especificado não era um tipo válido. String ou Integer esperado.',
 
 		'This event has been customised and cannot be viewed from Symphony.' => 
-		'Este evento foi personalizada e não pode ser vizualizada de Symphony.', //revisar
+		'Este evento foi personalizado e não pode ser vizualizado pelo Symphony.',
 
 		'Could not find Event %s.' => 
-		'Não foi possível encontrar Evento %s.',
+		'Não foi possível encontrar o Evento %s.',
 
 		'The field ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
-		'O campo ‘%s’, fornecida pela Extensão ‘%s’, está atualmente em uso.',
+		'O campo ‘%s’, fornecido pela Extensão ‘%s’, está atualmente em uso.',
 
 		'Please remove it from your sections prior to uninstalling or disabling.' => 
-		'Por favor excluir de suas secões antes de desinstalar ou desabilitar.', //revisar
+		'Por favor excluir de suas secões antes de desinstalar ou desabilitar.',
 
 		'The Data Source ‘%s’, provided by the Extension ‘%s’, is currently in use.' => 
 		'O Data Source ‘%s’, fornecido pela Extensão ‘%s’, está atualmente em uso.',
@@ -1185,16 +1185,16 @@
 		'Por favor excluir de seus campos antes de desinstalar ou desabilitar.',
 
 		'Missing default namespace definition.' => 
-		'Faltando definir namespace padrão.', //revisar
+		'Faltando definição de namespace padrão.',
 
 		'The %1$s file for the %2$s extension is not valid XML: %3$s' => 
-		'O %1$s arquivo para o %2$s extensão não é XML válido: %3$s', //revisar
+		'O arquivo %1$s para a extensão %2$s não é XML válido: %3$s',
 
 		'New Field' => 
 		'Novo Campo',
 
 		'Label' => 
-		'Etiqueta', //revisar
+		'Etiqueta',
 
 		'Placement' => 
 		'Localização',
@@ -1209,10 +1209,10 @@
 		'Formatação',
 
 		'Validation Rule' => 
-		'Regra de Validação', //revisar
+		'Regra de Validação',
 
 		'%s Make this a required field' => 
-		'%s Faça deste um campo necessário',
+		'%s Faça deste um campo obrigatório',
 
 		'%s Display in entries table' => 
 		'%s Exibir na tabela de registros',
@@ -1224,7 +1224,7 @@
 		'Nome do elemento inválido. Necessita ser válido %s.', //revisar
 
 		'A field with that element name already exists. Please choose another.' => 
-		'Um campo com este nome do elemento já existe. Por favor escolha outro.', //revisar
+		'Um campo com aquele elemento de nome já existe. Por favor escolha outro.',
 
 		'‘%s’ is a required field.' => 
 		'‘%s’ é um campo necessário.',
@@ -1239,22 +1239,22 @@
 		'Não foi possível encontrar o Campo %1$s em %2$s',
 
 		'Please login to view this page.' => 
-		'Por favor logue para vizualizar esta página', //revisar
+		'Por favor acesse o sistema para vizualizar esta página',
 
 		'Take me to the login page' => 
-		'Leve-me para página de login',
+		'Leve-me para página de acesso',
 
 		'Forbidden' => 
 		'Proibido',
 
 		'Unable to remove - %s' => 
-		'Incapaz de excluír - %s',
+		'Incapaz de excluir - %s',
 
 		'Unable to remove file - %s' => 
-		'Incapaz de excluir o arquivo - %s', //revisar
+		'Incapaz de excluir o arquivo - %s',
 
 		'Enforced type `%1$s` for argument `$%2$s` does not match any known variable types.' => 
-		'Tipo forçado `%1$s` para argumento `$%2$s` não corresponde a qualquer tipos conhecidos de variáveis.', //revisar
+		'Tipo forçado `%1$s` para o argumento `$%2$s` não corresponde a qualquer tipos conhecidos de variáveis.',
 
 		'Argument `$%1$s` is not of type `%2$s`, given `%3$s`.' => 
 		'Argumento `$%1$s` não é do tipo `%2$s`, dar `%3$s`.', //revisar
@@ -1263,19 +1263,19 @@
 		'Sem erros.',
 
 		'Maximum stack depth exceeded.' => 
-		'Profundidade máxima de stack ultrapassado.', //revisar
+		'Profundidade máxima de pilha ultrapassada.',
 
 		'Underflow or the modes mismatch.' => 
-		'Underflow ou a incompatibilidade de modos.', //revisar
+		'Fluxo insuficiente ou a incompatibilidade de modos.',
 
 		'Unexpected control character found.' => 
-		'Controle de caracter inesperado encontrado.', //revisar
+		'Controle de caracter inesperado encontrado.',
 
 		'Syntax error, malformed JSON.' => 
-		'Erro de sintaxe, JSON deformado.', //revisar
+		'Erro de sintaxe, JSON malformado.',
 
 		'Malformed UTF-8 characters, possibly incorrectly encoded.' => 
-		'Caracter UTF-8 deformado, possívelmente condificado incorretamente.',
+		'Caracter UTF-8 malformado, possivelmente condificado incorretamente.',
 
 		'Unknown JSON error' => 
 		'Erro JSON desconhecido',
@@ -1284,19 +1284,19 @@
 		'JSON não formatado corretamente',
 
 		'The selected language, %s, could not be found. Using default English dictionary instead.' => 
-		'A linguagem selecionada, %s, não foi possível encontrar. Usando dicionário Inglês padrão.', //revisar
+		'A linguagem selecionada, %s, não foi possível encontrar. Usando dicionário Inglês padrão.',
 
 		'MySQL Error (%1$s): %2$s in query: %3$s' => 
 		'Erro MySQL (%1$s): %2$s em consulta: %3$s', //revisar
 
 		'Unable to find a Manager class for this resource.' => 
-		'Impossível encontrar uma classe Manager para este recurso.', //revisar
+		'Impossível encontrar uma classe Manager para este recurso.',
 
 		'Release Date' => 
 		'Data de Lançamento',
 
 		'Attach to Page' => 
-		'Anexar a Página', //revisar
+		'Anexar a Página',
 
 		'Detach from Page' => 
 		'Desanexar da Página',
@@ -1314,43 +1314,43 @@
 		'Nenhuma conexão foi estabelecida para %s', 
 
 		'Header fields can only contain strings' => 
-		'Campos Header somente pode conter strings', //revisar
+		'Campos de cabeçalho somente podem conter strings',
 
 		'Can not call HELO on existing session' => 
-		'Não é poss[ivel chamar HELO na seção existente', //revisar
+		'Não é possivel chamar HELO na seção existente',
 
 		'Must call EHLO (or HELO) before calling MAIL' => 
-		'Deve chamar EHLO (ou HELO) antes de chamar MAIL', //revisar
+		'Deve chamar EHLO (ou HELO) antes de chamar MAIL',
 
 		'Only one call to MAIL may be made at a time.' => 
-		'Somente uma chamada para MAIL pode ser feita a tempo.', //revisar
+		'Somente uma chamada para MAIL pode ser feita de cada vez.',
 
 		'Must call MAIL before calling RCPT' => 
-		'Deve chamar MAIL antes de chamar RCPT', //revisar
+		'Deve chamar MAIL antes de chamar RCPT',
 
 		'Must call RCPT before calling DATA' => 
-		'Deve chamar RCPT antes de chamar DATA', //revisar
+		'Deve chamar RCPT antes de chamar DATA',
 
 		'Must call EHLO (or HELO) before calling AUTH' => 
-		'Deve chamar EHLO (ou HELO) antes de chamar AUTH', //revisar
+		'Deve chamar EHLO (ou HELO) antes de chamar AUTH',
 
 		'Can not call AUTH again.' => 
-		'Não é possível chamar AUTH novamente.', //revisar
+		'Não é possível chamar AUTH novamente.',
 
 		'Unable to connect via TLS' => 
-		'Não é possível conectar via TLS', //revisar
+		'Não é possível conectar via TLS',
 
 		'Could not send request: %s' => 
 		'Não foi possível enviar solicitação: %s',
 
 		'%s has timed out' => 
-		'%s tempo terminou', //revisar
+		'%s excedeu o tempo limite',
 
 		'Could not read from %s' => 
 		'Não foi possível ler de %s',
 
 		'Unable to open socket. Unknown error' => 
-		'Não é possível abrir socket. Erro desconhecido', //revisar 
+		'Não é possível abrir socket. Erro desconhecido',
 
 		'Unable to open socket. %s' => 
 		'Não é possível abrir socket. %s',
@@ -1359,7 +1359,7 @@
 		'Não é possível definir tempo limite.',
 
 		'Could not find Text Formatter %s.' => 
-		'Não foi possível encontrar Editor de Texto %s.', //revisar
+		'Não foi possível encontrar o Formatador de Texto %s.',
 
 		'Apply' => 
 		'Aplicar',
@@ -1368,16 +1368,16 @@
 		'Nenhum processador XSLT adequado foi encontrado.',
 
 		'Data returned is invalid.' => 
-		'O Dado retornado é inválido.', //revisar
+		'Os dados retornados são inválidos.',
 
 		'The %s class failed to acquire a lock, check that %s exists and is writable.' => 
-		'A classe %s falhou a adquirir um bloqueio, verificar se %s existe e é gravável.', //revisar
+		'A classe %s falhou a adquirir um bloqueio, verificar se %s existe e é gravável.',
 
 		'Transformed XML is invalid.' => 
 		'XML transformado é inválido.',
 
 		'Error creating field object with id %1$d, for filtering in data source %2$s. Check this field exists.' => 
-		'Erro ao criar objeto campo com id %1$d, para filtragem no data source %2$s. Verificar se este campo existe.',
+		'Erro ao criar objeto campo com id %1$d, para filtragem no Data Source %2$s. Verificar se este campo existe.',
 
 		'The Section, %s, associated with the Data source, %s, could not be found.' => 
 		'A Seção, %s, associada com o Data Source, %s, não pôde ser encontrada.',
@@ -1398,7 +1398,7 @@
 		'SMTP',
 
 		'The Envelope From Address can not contain carriage return or newlines.' => 
-		'O Endereço do Remetente não pode conter enter/return ou novas linhas.',
+		'O Endereço do Remetente não pode conter caracteres de retorno ou novas linhas.',
 
 		'Email: SMTP' => 
 		'Email: SMTP',
@@ -1419,16 +1419,16 @@
 		'Criptografia TLS',
 
 		'For a secure connection, SSL and TLS are supported. Please check the manual of your email provider for more details.' => 
-		'Para uma conexão segura, SSL e TLS são suportados. Por favor checar o manual em seu email para mais detalhes.',
+		'Para uma conexão segura, SSL e TLS são suportados. Por favor checar o manual de seu email para mais detalhes.',
 
 		'%s Requires authentication' => 
 		'%s Necessita autenticação',
 
 		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
-		'Algumas conexões SMTP requer autenticação. Se este é o caso, digite a combinação de usuário/senha abaixo.',
+		'Algumas conexões SMTP requerem autenticação. Se este é o caso, digite a combinação de usuário/senha abaixo.',
 
 		'Unknown errors where encountered when saving.' => 
-		'Erros desconhecidos foram encontrados enquanto salvou.',
+		'Erros desconhecidos foram encontrados ao salvar.',
 
 		'[Symphony] A new entry was created on %s' => 
 		'[Symphony] Um novo registro foi criado em %s',
@@ -1440,7 +1440,7 @@
 		'Registro criado com sucesso.',
 
 		'Author types' => 
-		'Tipos de autor', //revisar a palavra autor
+		'Tipos de autor',
 
 		'%s Allow selection of multiple authors' => 
 		'%s Permitir seleção de múltiplos autores',
@@ -1455,13 +1455,13 @@
 		'Não',
 
 		'%s Checked by default' => 
-		'%s Ativado por padrão', //revisar
+		'%s Ativado por padrão',
 
 		'Date' => 
 		'Data',
 
 		'%s Pre-populate with current date' => 
-		'%s Pré-preencher com a data atual', //revisar
+		'%s Pré-preencher com a data atual',
 
 		'The date specified in ‘%s’ is invalid.' => 
 		'A data especificada em ‘%s’ é inválida.',
@@ -1470,31 +1470,31 @@
 		'Entrada de Texto',
 
 		'‘%s’ contains invalid data. Please check the contents.' => 
-		'‘%s’ contém dados inválidos. Por favor verifique o conteúdo.', //revisar
+		'‘%s’ contém dados inválidos. Por favor verifique o conteúdo.',
 
 		'Select Box' => 
-		'Selecionar Box', //revisar
+		'Caixa de Seleção',
 
 		'Predefined Values' => 
-		'Valores Predefinidos', //revisar
+		'Valores Predefinidos',
 
 		'Dynamic Values' => 
-		'Valores Dinâmicos', //revisar
+		'Valores Dinâmicos',
 
 		'%s Allow selection of multiple options' => 
 		'%s Permitir a seleção de múltiplas opções',
 
 		'available when using Dynamic Values' => 
-		'disponível quando usado Valores Dinâmicos', //revisar
+		'disponível quando ao user Valores Dinâmicos',
 
 		'%s Sort all options alphabetically' => 
-		'%s Classificar todas as opções em ordem alfabética', //revisar
+		'%s Classificar todas as opções em ordem alfabética',
 
 		'At least one source must be specified, dynamic or static.' => 
-		'Pelo menos uma fonte deve ser especificada, dinâmica ou estática.', //revisar
+		'Pelo menos uma fonte deve ser especificada, dinâmica ou estática.',
 
 		'Tag List' => 
-		'Lista de Tag', //revisar
+		'Lista de Etiquetas',
 
 		'Suggestion List' => 
 		'Lista de Sugestões',
@@ -1509,22 +1509,22 @@
 		'Área de texto',
 
 		'Number of default rows' => 
-		'Número de linhas padrão', //revisar
+		'Número de linhas padrão',
 
 		'Text Formatter' => 
-		'Editor de Texto', //revisar
+		'Formatador de Texto',
 
 		'‘%s’ contains invalid XML.' => 
 		'‘%s’ contém XML inválido.',
 
 		'File Upload' => 
-		'Upload do Arquivo',//revisar
+		'Envio do Arquivo',
 
 		'Destination Directory' => 
 		'Diretório de Destino',
 
 		'The destination directory, %s, does not exist.' => 
-		'O destino do diretório, %s, não existe', //revisar
+		'O diretório de destino, %s, não existe',
 
 		'The destination directory is not writable.' => 
 		'O diretório de destino não é gravável.',
@@ -1536,22 +1536,22 @@
 		'O arquivo enviado não está mais disponível. Por favor verifique se ele existe, e é legível.',
 
 		'File chosen in ‘%s’ does not match allowable file types for that field.' => 
-		'Arquivo escolhido em ‘%s’ não corresponde tipos de arquivos permitidos para este campo.', //revisar
+		'Arquivo escolhido em ‘%s’ não corresponde aos tipos de arquivos permitidos para este campo.',
 
 		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s specified by your host.' => 
-		'Arquivo escolhido em ‘%1$s’ excede o máximo permitido de tamanho do envio de %2$s especificado em seu host.', //revisar
+		'Arquivo escolhido em ‘%1$s’ excede o tamanho máximo permitido para envio de %2$s especificado em seu servidor.',
 
 		'File chosen in ‘%1$s’ exceeds the maximum allowed upload size of %2$s, specified by Symphony.' => 
-		'Arquivo escolhido em ‘%1$s’ excede o máximo permitido de tamanho do envio de %2$s especificado por Symphony.',
+		'Arquivo escolhido em ‘%1$s’ excede o tamanho máximo permitido para envio de %2$s especificado pelo Symphony.',
 
 		'File chosen in ‘%s’ was only partially uploaded due to an error.' => 
-		'Arquivo escolhido em ‘%s’ foi carregado parcialmente devido a um erro.', //revisar
+		'Arquivo escolhido em ‘%s’ foi enviado parcialmente devido a um erro.',
 
 		'Uploading ‘%s’ failed. Could not write temporary file to disk.' => 
-		'Envio ‘%s’ falhou. Não foi possível gravar arquivo temporário no disco.',
+		'Envio de ‘%s’ falhou. Não foi possível gravar o arquivo temporário no disco.',
 
 		'Uploading ‘%s’ failed. File upload stopped by extension.' => 
-		'Envio ‘%s’ falhou. Envio de arquivo parado pela extensão.',
+		'Envio de ‘%s’ falhou. Envio de arquivo parado pela extensão.',
 
 		'There was an error while trying to upload the file %1$s to the target directory %2$s.' => 
 		'Houve um erro ao tentar enviar o arquivo %1$s para o diretório de destino %2$s.',
@@ -1560,7 +1560,7 @@
 		'Erro de Banco de Dados',
 
 		'Symphony Database Error' => 
-		'Erro de Bancdo de Dados Symphony',
+		'Erro de Banco de Dados Symphony',
 
 		'Uninstall extension' => 
 		'Desinstalar extensão',
@@ -1569,16 +1569,16 @@
 		'Desinstalar esta extensão',
 
 		'Often the cause of this error is a misnamed extension folder. You can try renaming %s to %s, or you can uninstall the extension to continue.' => 
-		'Muitas vezes a causa deste erro é uma pasta de extensão misnamed. Você pode tentar renomear %s para %s, ou você pode desinstalar a extensão para continuar.', //revisar
+		'Muitas vezes a causa deste erro é um nome errado da pasta de extensão. Você pode tentar renomear %s para %s, ou você pode desinstalar a extensão para continuar.',
 
 		'Rename folder' => 
 		'Renomear pasta',
 
 		'Sorry, but Symphony was unable to rename the folder. You can try renaming %s to %s yourself, or you can uninstall the extension to continue.' => 
-		'Desculpe, mas Symphony desativou para renomear a pasta. Você pode tentar renomear %s para %s, ou você pode desinstalar a extensão para continuar.', //revisar
+		'Desculpe, mas o Symphony não é capaz de renomear a pasta. Você pode tentar renomear %s para %s, ou você pode desinstalar a extensão para continuar.',
 
 		'You can try uninstalling the extension to continue, or you might want to ask on the forums' => 
-		'Você pode tentar desinstalando a extensão para continuar, ou você pode querer perguntar em fóruns',
+		'Você pode tentar desinstalar a extensão para continuar, ou você pode querer perguntar em fóruns',
 
 		'XSLT Processing Error' => 
 		'Erro de Processamento XSLT',
@@ -1749,7 +1749,7 @@
 		'quinzena',
 
 		'forthnight' => 
-		'quinzenas',
+		'quinzena',
 
 		'month' => 
 		'mês',
